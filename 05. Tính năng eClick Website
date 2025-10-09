@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bảng Phân Tích Tính Năng & Lợi Ích eClick Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .table-responsive {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-200">
+
+    <div class="container mx-auto px-4 py-8 sm:px-6 lg:px-8">
+        <header class="text-center mb-10">
+            <h1 class="text-3xl sm:text-4xl font-bold text-white tracking-tight">Bảng Phân Tích Tính Năng & Lợi Ích</h1>
+            <h2 class="text-2xl sm:text-3xl font-semibold text-cyan-400 mt-2">eClick Website</h2>
+            <p class="mt-4 text-lg text-gray-400 max-w-3xl mx-auto">Ánh xạ chi tiết từng tính năng với nhu cầu, ngôn ngữ và các vấn đề cụ thể của thị trường Việt Nam.</p>
+        </header>
+
+        <div class="table-responsive bg-gray-800 shadow-2xl rounded-xl">
+            <table class="w-full text-sm text-left text-gray-300">
+                <thead class="text-xs text-cyan-300 uppercase bg-gray-700">
+                    <tr>
+                        <th scope="col" class="px-6 py-3 font-bold">STT</th>
+                        <th scope="col" class="px-6 py-3 font-bold">Hạng mục tính năng</th>
+                        <th scope="col" class="px-6 py-3 font-bold">Tính năng cụ thể (Tên tiếng Anh)</th>
+                        <th scope="col" class="px-6 py-3 font-bold">Mô tả kỹ thuật</th>
+                        <th scope="col" class="px-6 py-3 font-bold">Lợi ích trực tiếp</th>
+                        <th scope="col" class="px-6 py-3 font-bold">Giá trị chiến lược & Giải quyết vấn đề cho thị trường VN</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Giai đoạn 1: Nền tảng & Xây dựng -->
+                    <tr class="bg-gray-800 border-b border-gray-700">
+                        <td class="px-6 py-4 font-bold text-cyan-400 align-top" rowspan="9">1</td>
+                        <td class="px-6 py-4 font-semibold text-white align-top" rowspan="9">Nền tảng & Xây dựng</td>
+                        <td class="px-6 py-4 font-medium">Tạo Website & Funnel Không Giới Hạn <span class="text-gray-400 block">(Unlimited Websites & Funnels)</span></td>
+                        <td class="px-6 py-4">Tất cả các gói dịch vụ đều cho phép người dùng tạo ra số lượng website và phễu bán hàng không giới hạn trên cùng một tài khoản.</td>
+                        <td class="px-6 py-4">Hoàn toàn tự do thử nghiệm, mở rộng và quản lý nhiều dự án, nhiều chiến dịch hoặc nhiều khách hàng mà không lo lắng về việc phát sinh thêm chi phí hay giới hạn của nền tảng.</td>
+                        <td class="px-6 py-4 text-amber-300"><strong>Đánh thẳng vào nỗi sợ "Chi phí ẩn" & "Bị vẽ vời":</strong> Đối với khách hàng đã từng "điên máu" vì "đụng chỉnh cái gì cũng mất phí", đây là một lời cam kết về sự minh bạch.</td>
+                    </tr>
+                    <tr class="bg-gray-800 border-b border-gray-700">
+                        <td class="px-6 py-4 font-medium">Trình xây dựng Kéo-Thả <span class="text-gray-400 block">(Drag-and-Drop Editor)</span></td>
+                        <td class="px-6 py-4">Giao diện trực quan cho phép người dùng thêm, di chuyển và tùy chỉnh các thành phần trên trang mà không cần viết code.</td>
+                        <td class="px-6 py-4">Xây dựng và chỉnh sửa trang web/phễu một cách trực quan, nhanh chóng mà không cần kiến thức kỹ thuật.</td>
+                        <td class="px-6 py-4 text-amber-300"><strong>Giải quyết vấn đề "Không rành công nghệ":</strong> Trao quyền kiểm soát hoàn toàn cho người dùng, đáp ứng mong muốn "tự quản trị có dễ không ạ".</td>
+                    </tr>
+                    <tr class="bg-gray-800 border-b border-gray-700">
+                        <td class="px-6 py-4 font-medium">Thư viện Mẫu Giao Diện <span class="text-gray-400 block">(Template Library)</span></td>
+                        <td class="px-6 py-4">Hơn 200 mẫu website và phễu được thiết kế sẵn cho nhiều ngành nghề, có thể tùy chỉnh hoàn toàn.</td>
+                        <td class="px-6 py-4">Ra mắt trang web/phễu chuyên nghiệp trong vài phút bằng cách chọn một mẫu có sẵn và thay đổi nội dung.</td>
+                        <td class="px-6 py-4 text-amber-300"><strong>Giải quyết vấn đề "Không biết bắt đầu từ đâu":</strong> Cung cấp một điểm khởi đầu rõ ràng, chống lại sự "hoang mang" của người mới.</td>
+                    </tr>
+                    <tr class="bg-gray-800 border-b border-gray-700">
+                        <td class="px-6 py-4 font-medium">Tối ưu hóa cho Di động <span class="text-gray-400 block">(Mobile Optimization)</span></td>
+                        <td class="px-6 py-4">Mọi trang được xây dựng đều tự động tương thích và hiển thị tốt trên các thiết bị di động.</td>
+                        <td class="px-6 py-4">Đảm bảo trải nghiệm người dùng tốt trên mọi thiết bị, một yếu tố quan trọng cho SEO và tỷ lệ chuyển đổi.</td>
+                        <td class="px-6 py-4 text-amber-300"><strong>Đáp ứng yêu cầu "responsive":</strong> Đảm bảo doanh nghiệp không mất khách hàng truy cập từ điện thoại.</td>
+                    </tr>
+                     <tr class="bg-gray-800 border-b border-gray-700">
+                        <td class="px-6 py-4 font-medium">AI Tạo Phễu & Nội dung <span class="text-gray-400 block">(Funnel & Content AI)</span></td>
+                        <td class="px-6 py-4">Công cụ AI tích hợp giúp tự động tạo cấu trúc phễu và viết nội dung (tiêu đề, văn bản) cho các trang, blog, email.</td>
+                        <td class="px-6 py-4">Tiết kiệm thời gian và công sức trong việc lên ý tưởng chiến lược và viết nội dung marketing.</td>
+                        <td class="px-6 py-4 text-amber-300"><strong>Hỗ trợ "Người mới" & "Chủ shop tự làm":</strong> Đóng vai trò như một trợ lý marketing.</td>
+                    </tr>
+                     <tr class="bg-gray-800 border-b border-gray-700">
+                        <td class="px-6 py-4 font-medium">Hosting Tích hợp & An toàn <span class="text-gray-400 block">(Integrated & Secure Hosting)</span></td>
+                        <td class="px-6 py-4">Dịch vụ lưu trữ web được bao gồm, quản lý bởi Amazon SES, sử dụng CDN toàn cầu để tăng tốc độ.</td>
+                        <td class="px-6 py-4">Không cần mua hosting riêng, đảm bảo website luôn hoạt động ổn định và nhanh chóng.</td>
+                        <td class="px-6 py-4 text-amber-300"><strong>Giải quyết nỗi sợ "Web bị lỗi" & "Bị bỏ rơi":</strong> Chuyển rủi ro từ nhà cung cấp nhỏ lẻ sang tập đoàn công nghệ lớn.</td>
+                    </tr>
+                     <tr class="bg-gray-800 border-b border-gray-700">
+                        <td class="px-6 py-4 font-medium">Chứng chỉ SSL Tự động <span class="text-gray-400 block">(Automatic SSL Certificate)</span></td>
+                        <td class="px-6 py-4">Tự động cài đặt và gia hạn chứng chỉ SSL miễn phí cho mọi tên miền được kết nối.</td>
+                        <td class="px-6 py-4">Tăng cường bảo mật, xây dựng lòng tin với khách hàng và cải thiện SEO mà không tốn thêm chi phí.</td>
+                        <td class="px-6 py-4 text-amber-300"><strong>Chống lại "Chi phí ẩn" & "Sợ bị lừa":</strong> Loại bỏ một khoản phí mà các đơn vị khác thường tính thêm.</td>
+                    </tr>
+                     <tr class="bg-gray-800 border-b border-gray-700">
+                        <td class="px-6 py-4 font-medium">Quản lý Tên miền Tùy chỉnh <span class="text-gray-400 block">(Custom Domain Management)</span></td>
+                        <td class="px-6 py-4">Cho phép kết nối tên miền gốc và tên miền phụ với hướng dẫn rõ ràng.</td>
+                        <td class="px-6 py-4">Xây dựng thương hiệu chuyên nghiệp với tên miền riêng, tăng độ tin cậy.</td>
+                        <td class="px-6 py-4 text-amber-300"><strong>Đảm bảo "Quyền sở hữu":</strong> Giúp khách hàng nắm toàn quyền kiểm soát tài sản số, tránh bị giữ tên miền làm con tin.</td>
+                    </tr>
+                     <tr class="bg-gray-800 border-b border-gray-700">
+                        <td class="px-6 py-4 font-medium">Lưu trữ Ảnh/Video Tập trung & AI Tạo ảnh <span class="text-gray-400 block">(Centralized Media Storage & AI Image Generator)</span></td>
+                        <td class="px-6 py-4">Thư viện tập trung để quản lý media và tích hợp công cụ AI để tạo ra hình ảnh từ văn bản.</td>
+                        <td class="px-6 py-4">Quản lý media hiệu quả. Tạo hình ảnh marketing chuyên nghiệp mà không cần kỹ năng thiết kế.</td>
+                        <td class="px-6 py-4 text-amber-300"><strong>Tiết kiệm thời gian và tiền bạc</strong> cho việc thiết kế hình ảnh, đảm bảo nội dung luôn mới mẻ.</td>
+                    </tr>
+                    
+                    <!-- Giai đoạn 2: Form - Thu thập & Tương tác Khách hàng -->
+                    <tr class="bg-gray-800 border-b border-gray-700">
+                        <td class="px-6 py-4 font-bold text-cyan-400 align-top" rowspan="6">2</td>
+                        <td class="px-6 py-4 font-semibold text-white align-top" rowspan="6">Form - Thu thập & Tương tác Khách hàng</td>
+                        <td class="px-6 py-4 font-medium">Trình tạo Biểu Mẫu Form Kéo-Thả <span class="text-gray-400 block">(Drag-and-Drop Form Builder)</span></td>
+                        <td class="px-6 py-4">Cho phép tạo, quản lý và sắp xếp các biểu mẫu để thu thập thông tin khách hàng tiềm năng. Dữ liệu tự động đồng bộ vào CRM.</td>
+                        <td class="px-6 py-4">Dễ dàng tạo các điểm thu thập lead, tự động hóa việc nhập dữ liệu và bắt đầu quá trình nuôi dưỡng ngay lập tức.</td>
+                        <td class="px-6 py-4 text-amber-300"><strong>Đơn giản hóa việc thu thập Lead cho "Người mới",</strong> loại bỏ rào cản kỹ thuật.</td>
+                    </tr>
+                    <tr class="bg-gray-800 border-b border-gray-700">
+                        <td class="px-6 py-4 font-medium">Trình tạo Khảo sát Tương tác <span class="text-gray-400 block">(Interactive Survey Builder)</span></td>
+                        <td class="px-6 py-4">Cho phép tạo các khảo sát hấp dẫn để thu thập thông tin chi tiết, hiểu rõ đối tượng khách hàng.</td>
+                        <td class="px-6 py-4">Thu thập dữ liệu sâu hơn về nhu cầu của khách hàng, phân loại khách hàng tiềm năng một cách thông minh.</td>
+                        <td class="px-6 py-4 text-amber-300"><strong>Thấu hiểu khách hàng & Phân loại Lead chất lượng:</strong> Giúp doanh nghiệp hiểu rõ "tâm lý khách hàng".</td>
+                    </tr>
+                    <tr class="bg-gray-800 border-b border-gray-700">
+                        <td class="px-6 py-4 font-medium">Logic Điều Kiện <span class="text-gray-400 block">(Conditional Logic)</span></td>
+                        <td class="px-6 py-4">Hỗ trợ logic điều kiện trong khảo sát để cá nhân hóa luồng câu hỏi dựa trên câu trả lời trước đó.</td>
+                        <td class="px-6 py-4">Tạo ra các cuộc khảo sát thông minh và phù hợp hơn, tăng tỷ lệ hoàn thành và chất lượng dữ liệu.</td>
+                        <td class="px-6 py-4 text-amber-300"><strong>Cá nhân hóa trải nghiệm người dùng,</strong> cho thấy sự thấu hiểu và chuyên nghiệp.</td>
+                    </tr>
+                    <tr class="bg-gray-800 border-b border-gray-700">
+                        <td class="px-6 py-4 font-medium">Trình tạo Câu đố Tương tác <span class="text-gray-400 block">(Interactive Quiz Builder)</span></td>
+                        <td class="px-6 py-4">Cho phép tạo các câu đố tương tác để thu hút người dùng, cung cấp CTA tùy chỉnh dựa trên điểm số.</td>
+                        <td class="px-6 py-4">Tăng mức độ tương tác, tạo ra khách hàng tiềm năng một cách thú vị (lead magnet).</td>
+                        <td class="px-6 py-4 text-amber-300"><strong>Tạo phễu thu hút khách hàng một cách sáng tạo,</strong> xây dựng niềm tin trước khi bán hàng.</td>
+                    </tr>
+                    <tr class="bg-gray-800 border-b border-gray-700">
+                        <td class="px-6 py-4 font-medium">Tiện ích Chat trên Web <span class="text-gray-400 block">(Webchat Widget)</span></td>
+                        <td class="px-6 py-4">Cấu hình một tiện ích chat trên website để chuyển đổi khách truy cập thành lead. Cuộc trò chuyện có thể tiếp tục qua SMS.</td>
+                        <td class="px-6 py-4">Tương tác với khách truy cập ngay lập tức, thu thập thông tin liên hệ ngay tại thời điểm họ quan tâm nhất.</td>
+                        <td class="px-6 py-4 text-amber-300"><strong>Đáp ứng nhu cầu "Hỗ trợ chuyên nghiệp" & Tức thì,</strong> trái ngược với trải nghiệm bị "nhắn tin cả tháng không trả lời".</td>
+                    </tr>
+                    <tr class="bg-gray-800 border-b border-gray-700">
+                        <td class="px-6 py-4 font-medium">Trình tạo Mã QR <span class="text-gray-400 block">(QR Code Generator)</span></td>
+                        <td class="px-6 py-4">Dễ dàng tạo mã QR tùy chỉnh và động, cung cấp phân tích chi tiết về lượt quét.</td>
+                        <td class="px-6 py-4">Kết nối marketing vật lý với tài sản số, đo lường hiệu quả của các chiến dịch offline.</td>
+                        <td class="px-6 py-4 text-amber-300"><strong>Cầu nối cho Doanh nghiệp truyền thống:</strong> Công cụ hiệu quả để chuyển đổi khách hàng từ offline sang online.</td>
+                    </tr>
+
+                    <!-- Giai đoạn 3: Thương mại Điện tử & Bán hàng Sản phẩm -->
+                    <tr class="bg-gray-800 border-b border-gray-700">
+                        <td class="px-6 py-4 font-bold text-cyan-400 align-top" rowspan="7">3</td>
+                        <td class="px-6 py-4 font-semibold text-white align-top" rowspan="7">Thương mại Điện tử & Bán hàng Sản phẩm</td>
+                        <td class="px-6 py-4 font-medium">Tạo sản phẩm TMĐT <span class="text-gray-400 block">(E-commerce Product Creation)</span></td>
+                        <td class="px-6 py-4">Cho phép tạo và quản lý danh mục sản phẩm hoàn chỉnh (vật lý, kỹ thuật số), quản lý kho, biến thể sản phẩm.</td>
+                        <td class="px-6 py-4">Dễ dàng thiết lập và quản lý các sản phẩm bán trên cửa hàng trực tuyến một cách tập trung.</td>
+                        <td class="px-6 py-4 text-amber-300">Cung cấp một hệ thống quản lý sản phẩm mạnh mẽ, nền tảng cho kênh bán hàng chuyên nghiệp.</td>
+                    </tr>
+                    <tr class="bg-gray-800 border-b border-gray-700">
+                        <td class="px-6 py-4 font-medium">Cổng Thanh toán Tích hợp (+30 ngân hàng) <span class="text-gray-400 block">(Payment Gateway Integration)</span></td>
+                        <td class="px-6 py-4">Tích hợp trực tiếp với các cổng thanh toán, cho phép nhận thanh toán qua QR và thẻ từ hơn 30 ngân hàng.</td>
+                        <td class="px-6 py-4">Bán sản phẩm/dịch vụ trực tiếp, tạo ra doanh thu ngay lập tức một cách an toàn và liền mạch.</td>
+                        <td class="px-6 py-4 text-amber-300"><strong>Giải quyết vấn đề "Không ra đơn" & "Thanh toán":</strong> Cung cấp giải pháp thanh toán đáng tin cậy.</td>
+                    </tr>
+                     <tr class="bg-gray-800 border-b border-gray-700">
+                        <td class="px-6 py-4 font-medium">Bán thêm (Upsells) & Bán kèm (Order Bumps) <span class="text-gray-400 block">(1-Click Upsells & Order Bumps)</span></td>
+                        <td class="px-6 py-4">Cho phép thêm các ưu đãi bổ sung trong quá trình thanh toán chỉ bằng một cú nhấp chuột.</td>
+                        <td class="px-6 py-4">Tăng giá trị đơn hàng trung bình (AOV) và tối đa hóa doanh thu từ mỗi khách hàng.</td>
+                        <td class="px-6 py-4 text-amber-300"><strong>Tối đa hóa Lợi nhuận:</strong> Kỹ thuật marketing nâng cao tích hợp sẵn, giúp tăng trưởng doanh thu không cần tăng chi phí quảng cáo.</td>
+                    </tr>
+                     <tr class="bg-gray-800 border-b border-gray-700">
+                        <td class="px-6 py-4 font-medium">Cửa hàng Trực tuyến <span class="text-gray-400 block">(E-commerce Store)</span></td>
+                        <td class="px-6 py-4">Nền tảng xây dựng cửa hàng online hoàn chỉnh với danh mục sản phẩm, quản lý kho, giỏ hàng và quy trình thanh toán.</td>
+                        <td class="px-6 py-4">Tạo một kênh bán hàng vật lý chuyên nghiệp, quản lý tập trung và tự động.</td>
+                        <td class="px-6 py-4 text-amber-300"><strong>Đáp ứng nhu cầu "Giỏ hàng":</strong> Cung cấp một giải pháp TMĐT mạnh mẽ cho local brand và chủ shop.</td>
+                    </tr>
+                     <tr class="bg-gray-800 border-b border-gray-700">
+                        <td class="px-6 py-4 font-medium">Tự động hóa Khôi phục Giỏ hàng bị Bỏ rơi <span class="text-gray-400 block">(Automated Abandoned Cart Recovery)</span></td>
+                        <td class="px-6 py-4">Hệ thống tự động kích hoạt một chuỗi email khi khách hàng không hoàn tất giao dịch.</td>
+                        <td class="px-6 py-4">Tự động thu hồi doanh thu bị mất, tăng tỷ lệ chuyển đổi mà không cần nỗ lực thủ công.</td>
+                        <td class="px-6 py-4 text-amber-300"><strong>Giải quyết vấn đề "tốn tiền hoài không ra đơn":</strong> "Cứu vớt" những khách hàng gần như đã mua hàng.</td>
+                    </tr>
+                     <tr class="bg-gray-800 border-b border-gray-700">
+                        <td class="px-6 py-4 font-medium">Tạo và Quản lý Mã khuyến mãi <span class="text-gray-400 block">(Coupon Code Management)</span></td>
+                        <td class="px-6 py-4">Cho phép tạo mã giảm giá theo % hoặc số tiền cố định, thiết lập giới hạn và điều kiện áp dụng.</td>
+                        <td class="px-6 py-4">Tăng doanh số bán hàng bằng cách tạo ra các chương trình khuyến mãi hấp dẫn.</td>
+                        <td class="px-6 py-4 text-amber-300"><strong>Công cụ cạnh tranh & Thúc đẩy chuyển đổi:</strong> Giúp doanh nghiệp tạo ra sự cấp bách, thu hút khách hàng mới.</td>
+                    </tr>
+                     <tr class="bg-gray-800 border-b border-gray-700">
+                        <td class="px-6 py-4 font-medium">Tự động hóa Xác nhận Đơn hàng & Hóa đơn <span class="text-gray-400 block">(Automated Order Confirmation & Invoicing)</span></td>
+                        <td class="px-6 py-4">Hệ thống tự động gửi email xác nhận và cho phép tạo/gửi hóa đơn chuyên nghiệp sau khi thanh toán.</td>
+                        <td class="px-6 py-4">Tăng tính chuyên nghiệp, xây dựng lòng tin với khách hàng và tự động hóa quy trình sau bán hàng.</td>
+                        <td class="px-6 py-4 text-amber-300"><strong>Xây dựng Uy tín & Sự Minh bạch:</strong> Giảm bớt sự "rén" của khách hàng.</td>
+                    </tr>
+                    
+                    <!-- Giai đoạn 4: Bán hàng Dịch vụ & Quản lý Khách hàng -->
+                    <tr class="bg-gray-800 border-b border-gray-700">
+                        <td class="px-6 py-4 font-bold text-cyan-400 align-top" rowspan="3">4</td>
+                        <td class="px-6 py-4 font-semibold text-white align-top" rowspan="3">Bán hàng Dịch vụ & Quản lý Khách hàng</td>
+                        <td class="px-6 py-4 font-medium">Lịch & Đặt hẹn Tự động <span class="text-gray-400 block">(Calendars & Automated Booking)</span></td>
+                        <td class="px-6 py-4">Hệ thống lịch thông minh, tích hợp với Lịch Google, cho phép khách hàng tự động đặt lịch hẹn dựa trên thời gian trống.</td>
+                        <td class="px-6 py-4">Loại bỏ việc trao đổi qua lại để xếp lịch, tự động hóa hoàn toàn quy trình đặt hẹn 24/7.</td>
+                        <td class="px-6 py-4 text-amber-300"><strong>Chuyên nghiệp hóa quy trình bán hàng dịch vụ,</strong> giảm thiểu công việc thủ công.</td>
+                    </tr>
+                    <tr class="bg-gray-800 border-b border-gray-700">
+                        <td class="px-6 py-4 font-medium">Quản lý Quy trình bán hàng <span class="text-gray-400 block">(Pipeline Management)</span></td>
+                        <td class="px-6 py-4">Trực quan hóa toàn bộ quy trình bán hàng bằng các cột và thẻ có thể kéo-thả.</td>
+                        <td class="px-6 py-4">Theo dõi mọi cơ hội bán hàng ở một nơi, đảm bảo không có khách hàng nào bị bỏ sót.</td>
+                        <td class="px-6 py-4 text-amber-300">Cung cấp một cái nhìn tổng quan rõ ràng về "sức khỏe" của doanh nghiệp.</td>
+                    </tr>
+                    <tr class="bg-gray-800 border-b border-gray-700">
+                        <td class="px-6 py-4 font-medium">Tự động hóa Nhắc hẹn <span class="text-gray-400 block">(Appointment Reminder Automation)</span></td>
+                        <td class="px-6 py-4">Tự động gửi email/SMS nhắc nhở khách hàng về các cuộc hẹn sắp tới.</td>
+                        <td class="px-6 py-4">Giảm đáng kể tỷ lệ khách hàng không đến (no-shows), tiết kiệm thời gian và doanh thu.</td>
+                        <td class="px-6 py-4 text-amber-300">Nâng cao trải nghiệm khách hàng, thể hiện sự chuyên nghiệp và chu đáo.</td>
+                    </tr>
+
+                    <!-- Giai đoạn 5: Marketing Nội dung & SEO -->
+                     <tr class="bg-gray-800 border-b border-gray-700">
+                        <td class="px-6 py-4 font-bold text-cyan-400 align-top" rowspan="3">5</td>
+                        <td class="px-6 py-4 font-semibold text-white align-top" rowspan="3">Marketing Nội dung & SEO</td>
+                        <td class="px-6 py-4 font-medium">Nền tảng Blog Tích hợp <span class="text-gray-400 block">(Integrated Blogging Platform)</span></td>
+                        <td class="px-6 py-4">Cho phép tạo và quản lý một blog ngay trên nền tảng, với các công cụ tối ưu hóa SEO cơ bản.</td>
+                        <td class="px-6 py-4">Thu hút lưu lượng truy cập tự nhiên từ Google, xây dựng uy tín thương hiệu và giáo dục khách hàng.</td>
+                        <td class="px-6 py-4 text-amber-300"><strong>Giải quyết vấn đề "Không tìm thấy trên Google",</strong> cung cấp công cụ để thực hiện content marketing.</td>
+                    </tr>
+                    <tr class="bg-gray-800 border-b border-gray-700">
+                        <td class="px-6 py-4 font-medium">Công cụ SEO Nâng cao <span class="text-gray-400 block">(Advanced SEO Tools)</span></td>
+                        <td class="px-6 py-4">Bộ công cụ chuyên sâu để nghiên cứu từ khóa, kiểm tra kỹ thuật website, theo dõi thứ hạng và phân tích backlink.</td>
+                        <td class="px-6 py-4">Cung cấp dữ liệu để đưa ra các quyết định SEO thông minh, cải thiện thứ hạng trên công cụ tìm kiếm.</td>
+                        <td class="px-6 py-4 text-amber-300"><strong>Đáp ứng yêu cầu "Tối ưu web chuẩn SEO":</strong> Cung cấp các công cụ chuyên nghiệp để cạnh tranh hiệu quả.</td>
+                    </tr>
+                    <tr class="bg-gray-800 border-b border-gray-700">
+                        <td class="px-6 py-4 font-medium">Sơ đồ trang web XML <span class="text-gray-400 block">(XML Sitemaps)</span></td>
+                        <td class="px-6 py-4">Tự động tạo và cho phép tùy chỉnh sơ đồ trang web để giúp Google hiểu cấu trúc website.</td>
+                        <td class="px-6 py-4">Cải thiện khả năng được Google lập chỉ mục, đặc biệt quan trọng cho các trang web mới.</td>
+                        <td class="px-6 py-4 text-amber-300"><strong>Nền tảng kỹ thuật vững chắc:</strong> Đảm bảo các yếu tố SEO kỹ thuật quan trọng được xử lý đúng cách.</td>
+                    </tr>
+
+                    <!-- Giai đoạn 6: Phân tích & Tối ưu hóa -->
+                     <tr class="bg-gray-800 border-b border-gray-700">
+                        <td class="px-6 py-4 font-bold text-cyan-400 align-top" rowspan="2">6</td>
+                        <td class="px-6 py-4 font-semibold text-white align-top" rowspan="2">Phân tích & Tối ưu hóa</td>
+                        <td class="px-6 py-4 font-medium">Bảng điều khiển Phân tích Tích hợp <span class="text-gray-400 block">(Integrated Analytics Dashboard)</span></td>
+                        <td class="px-6 py-4">Cung cấp một bảng điều khiển trực quan để theo dõi các chỉ số quan trọng: Lượt xem, Lượt opt-in, Tỷ lệ chuyển đổi, Doanh số.</td>
+                        <td class="px-6 py-4">Theo dõi hiệu suất marketing theo thời gian thực, hiểu rõ hành vi người dùng và đưa ra quyết định dựa trên dữ liệu.</td>
+                        <td class="px-6 py-4 text-amber-300"><strong>Chứng minh Hiệu quả & ROI:</strong> Là câu trả lời trực tiếp cho câu hỏi "làm web xong có thấy hiệu quả gì không?".</td>
+                    </tr>
+                    <tr class="bg-gray-800 border-b border-gray-700">
+                        <td class="px-6 py-4 font-medium">Thử nghiệm A/B <span class="text-gray-400 block">(A/B Split Testing)</span></td>
+                        <td class="px-6 py-4">Cho phép tạo các phiên bản khác nhau của cùng một trang để xác định phiên bản nào có tỷ lệ chuyển đổi cao hơn.</td>
+                        <td class="px-6 py-4">Cải thiện tỷ lệ chuyển đổi một cách khoa học, tối đa hóa hiệu quả của lưu lượng truy cập.</td>
+                        <td class="px-6 py-4 text-amber-300">Cho phép doanh nghiệp đưa ra quyết định dựa trên dữ liệu thay vì phỏng đoán.</td>
+                    </tr>
+
+                    <!-- Giai đoạn 7: Hệ sinh thái Tích hợp -->
+                    <tr class="bg-gray-800 border-b border-gray-700">
+                        <td class="px-6 py-4 font-bold text-cyan-400 align-top" rowspan="2">7</td>
+                        <td class="px-6 py-4 font-semibold text-white align-top" rowspan="2">Hệ sinh thái Tích hợp</td>
+                        <td class="px-6 py-4 font-medium">Tích hợp CRM & Tự động hóa <span class="text-gray-400 block">(CRM & Automation Integration)</span></td>
+                        <td class="px-6 py-4">Mọi tính năng của website đều được tích hợp liền mạch với hệ thống CRM và bộ công cụ tự động hóa marketing.</td>
+                        <td class="px-6 py-4">Quản lý tất cả dữ liệu khách hàng và tương tác tại một nơi duy nhất. Kích hoạt các chiến dịch marketing tự động.</td>
+                        <td class="px-6 py-4 text-amber-300"><strong>Xóa bỏ sự rời rạc giữa các công cụ,</strong> tạo ra một hệ thống marketing & bán hàng khép kín.</td>
+                    </tr>
+                    <tr class="bg-gray-800">
+                        <td class="px-6 py-4 font-medium">Hỗ trợ Cộng đồng & Tài nguyên Tự học <span class="text-gray-400 block">(Community & Knowledge Base)</span></td>
+                        <td class="px-6 py-4">Nền tảng cung cấp kho tài liệu hướng dẫn, video đào tạo và một cộng đồng người dùng toàn cầu.</td>
+                        <td class="px-6 py-4">Trao quyền cho người dùng tự giải quyết vấn đề nhanh chóng và học hỏi từ cộng đồng.</td>
+                        <td class="px-6 py-4 text-amber-300"><strong>Giải quyết nỗi sợ "Bị bỏ rơi" & "Tự mò mẫm":</strong> Khách hàng được trang bị công cụ và kiến thức để tự làm chủ.</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</body>
+</html>
