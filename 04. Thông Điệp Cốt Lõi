@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông Điệp Cốt Lõi (Core Message Canvas) - eClick Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .step-bubble {
+            background-color: #10B981;
+            color: white;
+            border-radius: 9999px;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 1.125rem;
+            flex-shrink: 0;
+        }
+        .filled-box {
+            background-color: #F0F9FF; /* Sky 50 */
+            border-left: 4px solid #3B82F6; /* Sky 500 */
+            color: #1E3A8A; /* Sky 900 */
+            padding: 16px;
+            border-radius: 8px;
+            margin-top: 16px;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <div class="container mx-auto p-4 sm:p-6 md:p-12">
+        <div class="bg-white rounded-2xl shadow-2xl p-6 sm:p-8 md:p-12">
+            
+            <!-- Main Title -->
+            <header class="text-center mb-12 border-b-2 border-gray-200 pb-6">
+                <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight">Thông Điệp Cốt Lõi: eClick Website</h1>
+                <p class="text-xl text-gray-500 mt-2">(Core Message Canvas)</p>
+            </header>
+
+            <!-- PART II: Process -->
+            <section>
+                <h2 class="text-3xl font-bold border-b border-gray-300 pb-3 mb-8">QUY TRÌNH XÂY DỰNG THÔNG ĐIỆP</h2>
+                <div class="space-y-12">
+
+                    <!-- STEP 1: SCOPE -->
+                    <div class="flex items-start space-x-4">
+                        <div class="step-bubble">1</div>
+                        <div>
+                            <h3 class="text-2xl font-bold">XÁC LẬP PHẠM VI</h3>
+                            <div class="mt-4 space-y-3 filled-box">
+                                <p><strong>Avatar:</strong> "Nguyễn Đạt Nhật" - Chủ doanh nghiệp SME/người kinh doanh đã "tiền mất tật mang", hoài nghi sâu sắc về dịch vụ web, khao khát sự an tâm và quyền kiểm soát.</p>
+                                <p><strong>Lời chào hàng (Offer):</strong> Nền tảng eClick Website - Giải pháp All-in-One giúp tự chủ xây dựng và quản lý website bán hàng.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- STEP 2: BEFORE & AFTER GRID -->
+                    <div class="flex items-start space-x-4">
+                        <div class="step-bubble">2</div>
+                        <div>
+                            <h3 class="text-2xl font-bold">KẾ THỪA LƯỚI "TRƯỚC & SAU"</h3>
+                            <p class="mt-2 text-gray-600">Sự chuyển đổi từ <span class="font-semibold text-red-600">Hỗn Loạn</span> đến <span class="font-semibold text-teal-600">Tự Chủ</span> là trái tim của thông điệp.</p>
+                             <div class="mt-4 overflow-x-auto">
+                                <table class="min-w-full bg-white border border-gray-200 rounded-lg">
+                                    <thead class="bg-gray-100">
+                                        <tr>
+                                            <th class="py-3 px-4 border-b text-left text-xs font-bold text-gray-600 uppercase tracking-wider">YẾU TỐ</th>
+                                            <th class="py-3 px-4 border-b text-left text-xs font-bold text-red-600 uppercase tracking-wider">TRẠNG THÁI TRƯỚC (BEFORE)</th>
+                                            <th class="py-3 px-4 border-b text-left text-xs font-bold text-teal-600 uppercase tracking-wider">TRẠNG THÁI SAU (AFTER)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="divide-y divide-gray-200">
+                                        <tr class="hover:bg-gray-50">
+                                            <td class="py-3 px-4 font-semibold">CÓ (HAVE)</td>
+                                            <td class="py-3 px-4 text-gray-700">Một website chắp vá, lỗi thời; Sự phụ thuộc vào bên thứ ba; Mớ công cụ rời rạc; Chi phí ẩn; Một website "chết" không ra đơn.</td>
+                                            <td class="py-3 px-4 text-gray-700">Một HỆ THỐNG bán hàng All-in-One; Quyền kiểm soát & Tự chủ 100%; Một trung tâm chỉ huy duy nhất; Chi phí minh bạch; Một cỗ máy bán hàng tự động.</td>
+                                        </tr>
+                                        <tr class="hover:bg-gray-50">
+                                            <td class="py-3 px-4 font-semibold">CẢM THẤY (FEEL)</td>
+                                            <td class="py-3 px-4 text-gray-700">Bất lực, lo lắng, "rén"; Bị phụ thuộc, bực bội; Hoang mang, không biết bắt đầu từ đâu.</td>
+                                            <td class="py-3 px-4 text-gray-700">An tâm, tự tin, được trao quyền; Chủ động, được giải phóng; Rõ ràng, có định hướng.</td>
+                                        </tr>
+                                        <tr class="hover:bg-gray-50">
+                                            <td class="py-3 px-4 font-semibold">MỘT NGÀY BÌNH THƯỜNG</td>
+                                            <td class="py-3 px-4 text-gray-700">Lo lắng kiểm tra web có "sập" không; Lãng phí thời gian gọi hỗ trợ vô vọng; Công việc kinh doanh bị gián đoạn.</td>
+                                            <td class="py-3 px-4 text-gray-700">Xem dashboard có bao nhiêu đơn hàng mới; Dành thời gian lên chiến lược marketing; Kinh doanh vận hành tự động 24/7.</td>
+                                        </tr>
+                                        <tr class="hover:bg-gray-50">
+                                            <td class="py-3 px-4 font-semibold">ĐỊA VỊ (STATUS)</td>
+                                            <td class="py-3 px-4 text-gray-700">Là "Nạn nhân"; Người kinh doanh bị công nghệ cản đường; Người chủ không có quyền kiểm soát; Bị xem là thiếu chuyên nghiệp.</td>
+                                            <td class="py-3 px-4 text-gray-700">Là "Người Tiên Phong"; Người làm chủ công nghệ; Nhà kiến tạo doanh nghiệp số; Được xem là chuyên nghiệp, đáng tin cậy.</td>
+                                        </tr>
+                                        <tr class="hover:bg-gray-50">
+                                            <td class="py-3 px-4 font-semibold">THIỆN vs. ÁC</td>
+                                            <td class="py-3 px-4 text-gray-700">Là nạn nhân của "văn hóa làm ăn chộp giật", của "Cái Bẫy Tính Năng", duy trì một thị trường thiếu minh bạch.</td>
+                                            <td class="py-3 px-4 text-gray-700">Trở thành đồng minh của SỰ MINH BẠCH & TỰ CHỦ, tin vào "Sức Mạnh Của Hệ Thống", xây dựng một cộng đồng kinh doanh tử tế.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- STEP 3: STATEMENT OF VALUE -->
+                    <div class="flex items-start space-x-4">
+                        <div class="step-bubble">3</div>
+                        <div>
+                            <h3 class="text-2xl font-bold">XÂY DỰNG TUYÊN BỐ VỀ GIÁ TRỊ</h3>
+                            <p class="mt-2 text-gray-600">Đây là một câu súc tích, diễn đạt rõ ràng giá trị mà sản phẩm mang lại, kết tinh từ sự chuyển đổi "Trước - Sau".</p>
+                            <div class="filled-box">
+                                <h4 class="font-semibold text-gray-800">Tuyên Bố Định Vị "eClick Website":</h4>
+                                <p class="mt-2 text-lg">Nền tảng eClick Website giúp <span class="font-bold">chủ kinh doanh</span> lấy lại toàn quyền kiểm soát website bán hàng của mình, chấm dứt sự phụ thuộc vào các công ty thiết kế, bằng công nghệ kéo-thả trực quan mà bất kỳ ai cũng có thể sử dụng dễ như dùng Canva.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- STEP 4: JOBS TO BE DONE -->
+                    <div class="flex items-start space-x-4">
+                        <div class="step-bubble">4</div>
+                        <div>
+                            <h3 class="text-2xl font-bold">XÁC ĐỊNH "CÔNG VIỆC CẦN HOÀN THÀNH" (JTBD)</h3>
+                             <p class="mt-2 text-gray-600">eClick Website được "thuê" để giúp khách hàng hoàn thành những "công việc" quan trọng sau:</p>
+                            <div class="mt-4 space-y-6">
+                                <!-- JTBD #1 -->
+                                <div class="bg-gray-50 border border-gray-200 rounded-lg p-6">
+                                    <h4 class="text-xl font-bold text-gray-800 mb-3">JTBD #1: Thoát Khỏi Nỗi Đau & Tìm Kiếm Sự An Tâm</h4>
+                                    <div class="space-y-4">
+                                        <div>
+                                            <p class="font-semibold text-gray-500 text-sm uppercase tracking-wider">Tuyên bố chính thức</p>
+                                            <blockquote class="mt-1 border-l-4 border-indigo-300 pl-4 italic text-indigo-800 bg-indigo-50 p-3 rounded-r-lg">
+                                                Khi tôi đã từng 'tiền mất tật mang' và cảm thấy bất lực với website cũ, tôi muốn có một công cụ mà tôi có thể tin tưởng và toàn quyền kiểm soát, để tôi có thể an tâm tập trung 100% vào việc kinh doanh của mình.
+                                            </blockquote>
+                                        </div>
+                                        <div>
+                                             <p class="font-semibold text-gray-500 text-sm uppercase tracking-wider">Phân Tích Job</p>
+                                             <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700 pl-4">
+                                                <li><strong>Nhiệm vụ Chức năng:</strong> Sở hữu một công cụ kinh doanh online hoạt động ổn định và đáng tin cậy.</li>
+                                                <li><strong>Nhiệm vụ Cảm xúc:</strong> Thoát khỏi cảm giác bất lực, bị lừa dối, và lo lắng; tìm lại sự an tâm và tin tưởng.</li>
+                                                <li><strong>Nhiệm vụ Xã hội:</strong> Được xem là một chủ doanh nghiệp đã vượt qua khó khăn, có khả năng đưa ra quyết định đúng đắn.</li>
+                                             </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- JTBD #2 -->
+                                <div class="bg-gray-50 border border-gray-200 rounded-lg p-6">
+                                    <h4 class="text-xl font-bold text-gray-800 mb-3">JTBD #2: Giành Lại Quyền Kiểm Soát & Sự Tự Chủ</h4>
+                                     <div class="space-y-4">
+                                        <div>
+                                            <p class="font-semibold text-gray-500 text-sm uppercase tracking-wider">Tuyên bố chính thức</p>
+                                            <blockquote class="mt-1 border-l-4 border-indigo-300 pl-4 italic text-indigo-800 bg-indigo-50 p-3 rounded-r-lg">
+                                                Khi tôi cần thực hiện một cập nhật kịp thời cho website kinh doanh của mình, tôi muốn có thể tự làm điều đó ngay lập tức, để tôi có thể đảm bảo thông tin trực tuyến của mình luôn chính xác và phù hợp mà không bị chậm trễ.
+                                            </blockquote>
+                                        </div>
+                                        <div>
+                                             <p class="font-semibold text-gray-500 text-sm uppercase tracking-wider">Phân Tích Job</p>
+                                             <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700 pl-4">
+                                                <li><strong>Nhiệm vụ Chức năng:</strong> Tự cập nhật nội dung, hình ảnh, sản phẩm trên website mà không cần chờ đợi hay phụ thuộc.</li>
+                                                <li><strong>Nhiệm vụ Cảm xúc:</strong> Cảm thấy được trao quyền, tự chủ, thoát khỏi cảm giác bất lực và bị cầm tù bởi công nghệ.</li>
+                                                <li><strong>Nhiệm vụ Xã hội:</strong> Được xem là một người chủ kinh doanh nhanh nhạy, chủ động.</li>
+                                             </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- JTBD #3 -->
+                                <div class="bg-gray-50 border border-gray-200 rounded-lg p-6">
+                                    <h4 class="text-xl font-bold text-gray-800 mb-3">JTBD #3: Tìm Kiếm Sự An Toàn & Tin Tưởng Khi Đầu Tư</h4>
+                                     <div class="space-y-4">
+                                        <div>
+                                            <p class="font-semibold text-gray-500 text-sm uppercase tracking-wider">Tuyên bố chính thức</p>
+                                            <blockquote class="mt-1 border-l-4 border-indigo-300 pl-4 italic text-indigo-800 bg-indigo-50 p-3 rounded-r-lg">
+                                               Khi tôi đầu tư vào một website, tôi muốn hiểu rõ những gì tôi đang nhận được và tin tưởng vào đối tác của mình, để tôi có thể đưa ra quyết định một cách tự tin và tập trung vào việc phát triển kinh doanh thay vì lo lắng về kỹ thuật.
+                                            </blockquote>
+                                        </div>
+                                        <div>
+                                             <p class="font-semibold text-gray-500 text-sm uppercase tracking-wider">Phân Tích Job</p>
+                                             <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700 pl-4">
+                                                <li><strong>Nhiệm vụ Chức năng:</strong> Thực hiện một khoản đầu tư công nghệ hiệu quả, đúng với ngân sách và kỳ vọng.</li>
+                                                <li><strong>Nhiệm vụ Cảm xúc:</strong> Cảm thấy an tâm, tự tin, không còn lo lắng, sợ hãi bị lừa đảo.</li>
+                                                <li><strong>Nhiệm vụ Xã hội:</strong> Được xem là một nhà đầu tư thông thái, cẩn trọng, không phải là "nạn nhân".</li>
+                                             </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- JTBD #4 -->
+                                <div class="bg-gray-50 border border-gray-200 rounded-lg p-6">
+                                    <h4 class="text-xl font-bold text-gray-800 mb-3">JTBD #4: Xây Dựng Nền Tảng Kinh Doanh Bền Vững</h4>
+                                     <div class="space-y-4">
+                                        <div>
+                                            <p class="font-semibold text-gray-500 text-sm uppercase tracking-wider">Tuyên bố chính thức</p>
+                                            <blockquote class="mt-1 border-l-4 border-indigo-300 pl-4 italic text-indigo-800 bg-indigo-50 p-3 rounded-r-lg">
+                                                Khi tôi chuyển đổi mô hình kinh doanh sang online, tôi muốn website của mình hoạt động ổn định và có một lộ trình hỗ trợ rõ ràng, để tôi có thể yên tâm rằng tài sản kỹ thuật số này là một nền tảng bền vững cho sự phát triển lâu dài.
+                                            </blockquote>
+                                        </div>
+                                        <div>
+                                             <p class="font-semibold text-gray-500 text-sm uppercase tracking-wider">Phân Tích Job</p>
+                                             <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700 pl-4">
+                                                <li><strong>Nhiệm vụ Chức năng:</strong> Sở hữu một tài sản kỹ thuật số hoạt động ổn định, đáng tin cậy để phục vụ kinh doanh online.</li>
+                                                <li><strong>Nhiệm vụ Cảm xúc:</strong> Cảm thấy yên tâm, an toàn về sự ổn định của kênh bán hàng online.</li>
+                                                <li><strong>Nhiệm vụ Xã hội:</strong> Được nhìn nhận là một doanh nghiệp chuyên nghiệp, có sự đầu tư nghiêm túc.</li>
+                                             </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- STEP 5: METAPHOR -->
+                     <div class="flex items-start space-x-4">
+                        <div class="step-bubble">5</div>
+                        <div>
+                            <h3 class="text-2xl font-bold">CHẾ TÁC PHÉP ẨN DỤ & CƠ CHẾ</h3>
+                             <p class="mt-2 text-gray-600">Đây là công cụ tạo ra "sự thấu hiểu tức thì", biến điều phức tạp trở nên đơn giản và đáng tin.</p>
+                            <div class="mt-4 space-y-4">
+                                <div class="filled-box">
+                                    <h4 class="font-semibold text-gray-800">Cơ chế (Mechanism):</h4>
+                                    <p class="mt-2 text-lg font-bold">Công nghệ Kéo-Thả (Drag-and-Drop)</p>
+                                    <p class="mt-1">Đây là "vũ khí" cốt lõi làm cho lời hứa về sự tự chủ trở nên đáng tin và khả thi về mặt kỹ thuật.</p>
+                                </div>
+                                <div class="filled-box">
+                                    <h4 class="font-semibold text-gray-800">Phép ẩn dụ (Metaphor):</h4>
+                                    <p class="mt-2 text-lg font-bold">"Dễ như dùng Canva"</p>
+                                    <p class="mt-1">Đây là cầu nối tâm lý, liên kết một khái niệm mới (xây dựng web) với một trải nghiệm quen thuộc (thiết kế trên Canva), giúp phá tan rào cản về công nghệ trong tâm trí khách hàng.</p>
+                                </div>
+                                <div class="p-4 border rounded-lg">
+                                    <h4 class="text-lg font-semibold">Các Tầng Giá Trị Cốt Lõi Được Kích Hoạt:</h4>
+                                     <ul class="list-disc list-inside mt-2 space-y-1 text-gray-700">
+                                         <li><strong>Chức năng (Functional):</strong> Đơn giản hóa (Simplifies), Giảm công sức (Reduces effort), Tránh phiền phức (Avoids hassles), Tiết kiệm thời gian (Saves time).</li>
+                                         <li><strong>Cảm xúc (Emotional):</strong> Giảm lo lắng (Reduces anxiety), Thưởng cho tôi (Rewards me - cảm giác hoàn thành).</li>
+                                         <li><strong>Thay đổi cuộc sống (Life-Changing):</strong> Mang lại hy vọng (Provides hope), Động lực (Motivation).</li>
+                                     </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+</body>
+</html>
+
