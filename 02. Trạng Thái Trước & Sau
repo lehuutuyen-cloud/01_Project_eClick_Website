@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trạng Thái Trước & Sau: Từ Hỗn Loạn đến Tự Chủ</title>
+    <title>Trạng Thái Chuyển Đổi: Từ Hỗn Loạn đến Tự Chủ</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,6 +31,11 @@
             <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
                 Hành trình từ <span class="font-semibold text-red-600">Hỗn Loạn</span> đến <span class="font-semibold text-teal-600">Tự Chủ</span> cùng Hệ Thống eClick. Đây là sự thay đổi chúng tôi mang lại, không chỉ là một công cụ.
             </p>
+            <div class="mt-8 max-w-4xl mx-auto">
+                 <p class="text-md text-left text-gray-700 italic bg-blue-50 p-5 rounded-lg border-l-4 border-blue-400 shadow-sm">
+                    <strong>Tóm tắt chân dung:</strong> Đại diện cho những chủ shop, người kinh doanh đã từng "tiền mất tật mang" hoặc đang hoài nghi trước các dịch vụ web. Khát khao chủ lực cuối cùng (được thể hiện qua 3 góc độ): Giành lại quyền kiểm soát hoàn toàn kênh bán hàng online qua website, được giải phóng khỏi sự phụ thuộc và các rắc rối kỹ thuật, để có thể an tâm tập trung vào công việc kinh doanh cốt lõi của mình. "Công việc" của họ là tìm một giải pháp giúp họ thoát khỏi cảm giác bất lực, phụ thuộc và nỗi sợ bị lừa đảo.
+                </p>
+            </div>
         </header>
 
         <!-- Main Grid Container -->
@@ -208,37 +213,6 @@
                 </div>
             </section>
 
-            <!-- Section 4: STATUS -->
-            <section>
-                <h2 class="text-3xl font-bold text-gray-700 text-center mb-8">4. STATUS (Địa Vị & Danh Tính)</h2>
-                <div class="grid md:grid-cols-2 gap-8">
-                    <!-- Before Column -->
-                    <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-red-500 transition-transform transform hover:-translate-y-1">
-                         <h3 class="text-2xl font-bold text-red-600 mb-4 flex items-center">
-                            <i class="fas fa-user-slash mr-3"></i> TRƯỚC KHI CÓ eClick
-                        </h3>
-                        <ul class="list-disc list-inside space-y-2 text-gray-700">
-                            <li>Là "Nạn nhân" của dịch vụ kém chất lượng.</li>
-                            <li>Là người kinh doanh bị công nghệ cản đường.</li>
-                            <li>Là người chủ không có quyền kiểm soát tài sản số.</li>
-                            <li>Bị xem là thiếu chuyên nghiệp, làm ăn tạm bợ.</li>
-                        </ul>
-                    </div>
-                    <!-- After Column -->
-                    <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-teal-500 transition-transform transform hover:-translate-y-1">
-                         <h3 class="text-2xl font-bold text-teal-600 mb-4 flex items-center">
-                            <i class="fas fa-user-tie mr-3"></i> SAU KHI CÓ eClick
-                        </h3>
-                        <ul class="list-disc list-inside space-y-2 text-gray-700">
-                            <li>Là Người Tiên Phong áp dụng tư duy hệ thống.</li>
-                            <li>Là người làm chủ công nghệ, biến nó thành đòn bẩy.</li>
-                            <li>Là Nhà kiến tạo doanh nghiệp số, sở hữu tài sản thực sự.</li>
-                            <li>Được xem là chuyên nghiệp, đáng tin cậy trong mắt khách hàng.</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
             <!-- Section 5: GOOD vs EVIL -->
             <section>
                 <h2 class="text-3xl font-bold text-gray-700 text-center mb-8">5. THIỆN vs. ÁC (Cuộc Chiến Tham Gia)</h2>
@@ -249,13 +223,9 @@
                             <i class="fas fa-skull-crossbones mr-3"></i> TRƯỚC KHI CÓ eClick
                         </h3>
                         <div class="space-y-4 text-gray-700">
-                            <div>
+                             <div>
                                 <p class="font-semibold">Là nạn nhân của "văn hóa làm ăn chộp giật"</p>
                                 <p class="text-sm text-gray-500">Một mình chiến đấu với SỰ VÔ TRÁCH NHIỆM, SỰ MẬP MỜ KỸ THUẬT và TƯ DUY NGẮN HẠN của các công ty làm website đang phá hoại niềm tin của cả thị trường.</p>
-                            </div>
-                            <div>
-                                <p class="font-semibold">Một mình chiến đấu với SỰ HỖN LOẠN.</p>
-                                <p class="text-sm text-gray-500">Sự vô trách nhiệm, mập mờ kỹ thuật, và tư duy chắp vá, ngắn hạn.</p>
                             </div>
                             <div>
                                 <p class="font-semibold">Là nạn nhân của "Cái Bẫy Tính Năng".</p>
@@ -277,10 +247,6 @@
                                 <p class="font-semibold">Trở thành đồng minh, đứng về phía SỰ MINH BẠCH & TỰ CHỦ.</p>
                                 <p class="text-sm text-gray-500">Tham gia vào "phong trào" chống lại sự mập mờ, khẳng định giá trị của việc trao quyền cho người kinh doanh.</p>
                             </div>
-                           <div>
-                                <p class="font-semibold">Cùng "chúng ta" chiến đấu VÌ SỰ TRẬT TỰ.</p>
-                                <p class="text-sm text-gray-500">Sự tự chủ, minh bạch, và tư duy hệ thống, dài hạn.</p>
-                            </div>
                             <div>
                                 <p class="font-semibold">Trở thành người tin vào "Sức Mạnh Của Hệ Thống".</p>
                                 <p class="text-sm text-gray-500">Hiểu rằng sự kết nối và đồng bộ mới tạo ra kết quả.</p>
@@ -290,6 +256,27 @@
                                 <p class="text-sm text-gray-500">Góp phần tạo ra một môi trường chuyên nghiệp và hiệu quả.</p>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </section>
+
+             <!-- Section 6: SUMMARY -->
+            <section>
+                <h2 class="text-3xl font-bold text-gray-700 text-center mb-8">6. TỔNG KẾT HÀNH TRÌNH CHUYỂN ĐỔI</h2>
+                <div class="space-y-8 max-w-4xl mx-auto">
+                    <!-- Before Summary -->
+                    <div class="bg-red-50 border-2 border-dashed border-red-200 text-red-900 p-6 rounded-lg shadow-sm">
+                         <h3 class="text-xl font-bold mb-3 flex items-center">
+                            <i class="fas fa-map-marker-alt mr-3"></i> Tóm tắt Điểm A - Tình Huống Hiện Tại
+                        </h3>
+                        <p class="italic leading-relaxed">"Việc phải sống chung với một website liên tục lỗi và sự phụ thuộc hoàn toàn vào bên ngoài khiến tôi luôn cảm thấy bất lực và hoài nghi, dần dần biến mỗi ngày của tôi thành vòng lặp lo lắng, gọi hỗ trợ trong vô vọng, khiến người khác nhìn tôi như một 'nạn nhân' bị công nghệ cản đường và tệ hơn cả, tôi nhận ra mình đang phải chấp nhận sự vô trách nhiệm và mập mờ như một phần của cuộc chơi."</p>
+                    </div>
+                    <!-- After Summary -->
+                     <div class="bg-teal-50 border-2 border-dashed border-teal-200 text-teal-900 p-6 rounded-lg shadow-sm">
+                         <h3 class="text-xl font-bold mb-3 flex items-center">
+                            <i class="fas fa-flag-checkered mr-3"></i> Tóm tắt Điểm B - Tình Huống Mong Muốn
+                        </h3>
+                        <p class="italic leading-relaxed">"Giờ đây, nhờ có một nền tảng Kéo-Thả nơi tôi có toàn quyền kiểm soát, tôi cảm thấy an tâm tuyệt đối và được trao quyền, và tự tin sống một ngày tập trung 100% vào việc bán hàng, được mọi người công nhận là một người chủ kinh doanh thông thái, tự chủ và hạnh phúc nhất là khi biết rằng mình đang kiến tạo nên sự minh bạch và chuyên nghiệp cho chính doanh nghiệp của mình."</p>
                     </div>
                 </div>
             </section>
