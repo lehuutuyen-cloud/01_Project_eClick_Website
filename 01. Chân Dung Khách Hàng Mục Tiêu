@@ -3,169 +3,292 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Canvas Chân Dung Khách Hàng - Nguyễn Đạt Nhật</title>
+    <title>Canvas Chân Dung Khách Hàng Mục Tiêu</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #111827; /* gray-900 */
+            background-color: #f3f4f6; /* Light gray background */
         }
         .canvas-card {
-            background-color: #1f2937; /* gray-800 */
-            border: 1px solid #374151; /* gray-700 */
+            background-color: white;
             border-radius: 0.75rem;
-            padding: 1.5rem;
-            height: 100%;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            transition: all 0.3s ease-in-out;
+            display: flex;
+            flex-direction: column;
         }
-        .canvas-card h3 {
-            color: #2dd4bf; /* teal-400 */
+        .canvas-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -2px rgb(0 0 0 / 0.1);
+        }
+        .card-content {
+            flex-grow: 1;
+        }
+        .card-title {
+            font-size: 1.125rem; /* 18px */
             font-weight: 700;
-            font-size: 1.25rem;
-            border-bottom: 2px solid #374151; /* gray-700 */
+            color: #111827; /* Dark gray */
+            border-bottom: 2px solid #e5e7eb; /* Light gray border */
             padding-bottom: 0.75rem;
             margin-bottom: 1rem;
         }
-        .canvas-card h4 {
-            color: #9ca3af; /* gray-400 */
-            font-weight: 600;
-            font-size: 1rem;
+         .card-title-pain {
+            color: #991b1b; /* Dark red */
+            border-bottom-color: #fecaca; /* Light red */
+        }
+        .card-title-gains {
+            color: #166534; /* Dark green */
+            border-bottom-color: #bbf7d0; /* Light green */
+        }
+        .list-item {
+            position: relative;
+            padding-left: 1.75rem;
+            margin-bottom: 0.75rem;
+        }
+        .list-item::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            top: 2px;
+            color: #16a34a; /* Green checkmark */
+            font-weight: bold;
+            font-size: 1.25rem;
+        }
+        .list-item-pain::before {
+            content: '✗';
+            color: #dc2626; /* Red cross */
+        }
+        .quote {
+            background-color: #f9fafb;
+            border-left: 4px solid #3b82f6; /* Blue border */
+            padding: 1rem;
             margin-top: 1rem;
-            margin-bottom: 0.5rem;
+            border-radius: 0.25rem;
+            font-style: italic;
         }
-        .canvas-card ul {
-            list-style-position: inside;
-        }
-        .canvas-card li {
-            margin-bottom: 0.5rem;
-            color: #d1d5db; /* gray-300 */
-            padding-left: 0.5rem;
-        }
-        .canvas-card li::marker {
-            color: #2dd4bf; /* teal-400 */
-        }
-        .pain-point::before {
-            content: '🔥';
-            margin-right: 0.5rem;
-        }
-        .gain-point::before {
-            content: '✅';
-            margin-right: 0.5rem;
-        }
-        .driver-point::before {
-            content: '👉';
-            margin-right: 0.5rem;
+        .insight-highlight {
+            background-color: #fef9c3; /* Light yellow */
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 500;
         }
     </style>
 </head>
-<body class="text-gray-200 p-4 sm:p-6 md:p-8">
+<body class="p-4 sm:p-6 md:p-10">
     <div class="max-w-7xl mx-auto">
-
         <!-- Header -->
-        <header class="text-center mb-8">
-            <h1 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">CANVAS CHÂN DUNG KHÁCH HÀNG MỤC TIÊU</h1>
-            <p class="mt-2 text-lg text-gray-400">Dự án: Dịch vụ thiết kế Website cho SME</p>
-        </header>
-
-        <!-- Executive Summary -->
-        <div class="bg-gray-800 border border-teal-500/30 rounded-lg p-6 mb-8 shadow-lg">
-            <h2 class="text-2xl font-bold text-teal-400 mb-3">TÓM TẮT CHÂN DUNG (EXECUTIVE SUMMARY)</h2>
-            <p class="text-gray-300 leading-relaxed">
-                <strong>Nguyễn Đạt Nhật</strong> đại diện cho nhóm chủ doanh nghiệp nhỏ (SME) và người kinh doanh cá nhân đã có trải nghiệm tiêu cực, "tiền mất tật mang" hoặc đang hoài nghi sâu sắc về các dịch vụ thiết kế website. Khát khao gốc rễ của họ không chỉ là một website, mà là <span class="text-yellow-400 font-semibold">SỰ AN TÂM TUYỆT ĐỐI</span> và <span class="text-yellow-400 font-semibold">QUYỀN KIỂM SOÁT HOÀN TOÀN</span> đối với công cụ kinh doanh online của mình. "Công việc cần hoàn thành" (Job-To-Be-Done) của họ là tìm kiếm một giải pháp giúp họ thoát khỏi cảm giác bất lực, phụ thuộc và nỗi sợ bị lừa đảo trong quá khứ.
-            </p>
+        <div class="text-center mb-8">
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-800">CANVAS CHÂN DUNG KHÁCH HÀNG MỤC TIÊU</h1>
+            <p class="text-lg text-gray-600 mt-2">Dự án: Dịch vụ thiết kế Website cho SME</p>
         </div>
 
-        <!-- Main Grid -->
-        <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
+        <!-- Executive Summary -->
+        <div class="canvas-card p-6 mb-8">
+            <h2 class="card-title">TÓM TẮT CHÂN DUNG (EXECUTIVE SUMMARY)</h2>
+            <div class="card-content">
+                <p class="text-gray-700 leading-relaxed">
+                    <strong>Nguyễn Đạt Nhật</strong> đại diện cho nhóm chủ doanh nghiệp nhỏ (SME) và người kinh doanh cá nhân đã có trải nghiệm tiêu cực, "tiền mất tật mang" hoặc đang hoài nghi sâu sắc về các dịch vụ thiết kế website. Khát khao gốc rễ của họ không chỉ là một website, mà là <span class="font-bold text-blue-600">SỰ AN TÂM TUYỆT ĐỐI</span> và <span class="font-bold text-blue-600">QUYỀN KIỂM SOÁT HOÀN TOÀN</span> đối với công cụ kinh doanh online của mình. "Công việc cần hoàn thành" (Job-To-Be-Done) của họ là tìm kiếm một giải pháp giúp họ thoát khỏi cảm giác bất lực, phụ thuộc và nỗi sợ bị lừa đảo trong quá khứ.
+                </p>
+            </div>
+        </div>
 
-            <!-- Card 1 & 2: Định danh & Nhân khẩu học -->
-            <div class="space-y-6">
-                <div class="canvas-card">
-                    <h3>YẾU TỐ 1: ĐỊNH DANH / PERSONA</h3>
-                    <ul class="space-y-3">
-                        <li><strong>Tên Avatar:</strong> Nguyễn Đạt Nhật</li>
-                        <li><strong>Ngách thị trường:</strong> Chủ SME không có đội ngũ marketing/IT chuyên trách.</li>
-                        <li><strong>Cảm xúc chủ đạo:</strong> Bất lực, mất kiểm soát, lo lắng, bị phản bội, khao khát được giải thoát.</li>
-                        <li class="border-t border-gray-700 pt-3 mt-3 italic"><strong>Câu nói đặc trưng:</strong> "Làm lại lần này là phải chắc, không thể 'tiền mất tật mang' lần nữa."</li>
-                    </ul>
+        <!-- Main Canvas Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Yếu tố 1: Định danh Avatar -->
+            <div class="canvas-card p-6 lg:col-span-1">
+                <h2 class="card-title">YẾU TỐ 1: ĐỊNH DANH AVATAR / PERSONA</h2>
+                <div class="card-content space-y-4 text-gray-700">
+                    <p><strong>Tên Avatar:</strong> Nguyễn Đạt Nhật</p>
+                    <p><strong>Ngách thị trường:</strong> Chủ doanh nghiệp SME không có đội ngũ marketing/IT chuyên trách.</p>
+                    <p><strong>Cảm xúc chủ đạo:</strong> Bất lực, mất kiểm soát, lo lắng, cảm giác bị phản bội (bởi đơn vị làm web cũ), và khao khát được giải thoát khỏi sự phụ thuộc vào người khác.</p>
+                    <div class="quote">
+                        <p>"Làm lại lần này là phải chắc, không thể 'tiền mất tật mang' lần nữa."</p>
+                    </div>
                 </div>
-                <div class="canvas-card">
-                    <h3>YẾU TỐ 2: NHÂN KHẨU HỌC & HÀNH VI</h3>
-                    <h4>A. NHÂN KHẨU HỌC CƠ BẢN</h4>
-                    <ul class="list-disc">
-                        <li><strong>Tuổi:</strong> 30 - 45</li>
-                        <li><strong>Nghề nghiệp:</strong> Chủ SME, Chủ cửa hàng, Freelancer.</li>
-                        <li><strong>Thu nhập:</strong> Tự chủ, nhưng ngân sách marketing có hạn.</li>
-                        <li><strong>Gia đình:</strong> Thường đã có gia đình (thời gian là vàng).</li>
-                    </ul>
-                    <h4>B. HÀNH VI & SỞ THÍCH</h4>
-                    <ul class="list-disc">
-                        <li>Đọc blog kinh doanh thực chiến.</li>
-                        <li>Tham gia group Facebook về khởi nghiệp.</li>
-                        <li>Đọc review, "bóc phốt" để né rủi ro.</li>
-                        <li>Tham gia workshop/webinar online.</li>
+            </div>
+            
+            <!-- Yếu tố 2: Nhân khẩu học & Hành vi -->
+            <div class="canvas-card p-6 lg:col-span-2">
+                <h2 class="card-title">YẾU TỐ 2: NHÂN KHẨU HỌC & HÀNH VI</h2>
+                <div class="card-content grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div>
+                        <h3 class="font-semibold text-gray-800 mb-2">A. NHÂN KHẨU HỌC CƠ BẢN</h3>
+                        <ul class="space-y-2 text-gray-700 list-disc list-inside">
+                            <li><strong>Tuổi:</strong> 30 - 45</li>
+                            <li><strong>Nghề nghiệp:</strong> Chủ Doanh nghiệp nhỏ (SME), Chủ cửa hàng, Chuyên gia/Freelancer tự kinh doanh.</li>
+                            <li><strong>Thu nhập:</strong> Tự chủ tài chính, nhưng ngân sách cho marketing/công nghệ có hạn và yêu cầu hiệu quả rõ ràng.</li>
+                            <li><strong>Tình trạng hôn nhân:</strong> Thường đã có gia đình, con cái (coi trọng thời gian và sự ổn định).</li>
+                            <li><strong>Địa điểm:</strong> Tập trung ở các thành phố lớn (Hà Nội, TPHCM) nhưng kinh doanh online trên toàn quốc.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-gray-800 mb-2">B. HÀNH VI & SỞ THÍCH</h3>
+                         <ul class="space-y-2 text-gray-700 list-disc list-inside">
+                            <li><strong>Nguồn thông tin:</strong>
+                                <ul class="pl-5 mt-1 space-y-1 list-[circle] list-inside">
+                                    <li>Đọc các blog về kinh doanh thực chiến, marketing cho SME.</li>
+                                    <li>Tham gia các group về kinh doanh, khởi nghiệp trên Facebook.</li>
+                                    <li>Chủ động đọc review, các bài "bóc phốt" để né rủi ro.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Sự kiện:</strong> Ít tham dự sự kiện offline lớn. Thường tham gia workshop, webinar online.</li>
+                            <li><strong>Thần tượng/Guru:</strong> Theo dõi người có chuyên môn thực chiến, chia sẻ kinh nghiệm thật.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Yếu tố 3: Nỗi đau -->
+            <div class="canvas-card p-6 md:col-span-2 lg:col-span-3">
+                <h2 class="card-title card-title-pain">YẾU TỐ 3: NỖI ĐAU & SỰ THẤT VỌNG (PAIN POINTS)</h2>
+                <div class="card-content text-gray-700">
+                    <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2">
+                        <li class="list-item list-item-pain"><strong>Tổn thất tài chính:</strong> Từng trả tiền cho một website lỗi, hoạt động chập chờn, hoặc không thể sử dụng đúng như cam kết.</li>
+                        <li class="list-item list-item-pain"><strong>Cảm giác bị bỏ rơi:</strong> Đơn vị thiết kế "biến mất" hoặc hỗ trợ chậm trễ sau khi đã nhận tiền.</li>
+                        <li class="list-item list-item-pain"><strong>Lãng phí thời gian & cơ hội:</strong> Website lỗi làm gián đoạn kinh doanh, mất khách hàng, và tốn thời gian đi "cầu cứu".</li>
+                        <li class="list-item list-item-pain"><strong>Cảm giác bất lực:</strong> Thấy mình "mù công nghệ", không thể tự thay đổi những thứ nhỏ nhặt và luôn phải phụ thuộc.</li>
+                        <li class="list-item list-item-pain"><strong>Sợ bị lừa dối:</strong> Hoang mang trước thuật ngữ kỹ thuật, sợ bị "vẽ" thêm tính năng không cần thiết và bị báo giá cao.</li>
+                        <li class="list-item list-item-pain"><strong>Tổn hại thương hiệu:</strong> Xấu hổ với website hiện tại, cảm thấy nó thiếu chuyên nghiệp và ảnh hưởng xấu đến hình ảnh.</li>
                     </ul>
                 </div>
             </div>
 
-            <!-- Card 3 & 4: Nỗi đau & Mong muốn -->
-            <div class="space-y-6">
-                 <div class="canvas-card">
-                    <h3>YẾU TỐ 3: NỖI ĐAU & THẤT VỌNG (PAINS)</h3>
-                    <ul class="space-y-2">
-                        <li class="pain-point">Tổn thất tài chính: "Tiền mất tật mang".</li>
-                        <li class="pain-point">Cảm giác bị bỏ rơi: Bị "bỏ con giữa chợ".</li>
-                        <li class="pain-point">Lãng phí thời gian & cơ hội kinh doanh.</li>
-                        <li class="pain-point">Cảm giác bất lực: Thấy mình "mù công nghệ".</li>
-                        <li class="pain-point">Sợ bị lừa dối: Bị "vẽ" thêm, báo giá vô lý.</li>
-                        <li class="pain-point">Tổn hại thương hiệu: Xấu hổ với website hiện tại.</li>
-                    </ul>
-                </div>
-                 <div class="canvas-card">
-                    <h3>YẾU TỐ 4: MONG MUỐN & KHÁT VỌNG (GAINS)</h3>
-                    <ul class="space-y-2">
-                        <li class="gain-point">An tâm & Ổn định: Giải pháp "chắc chắn" để "ngủ ngon".</li>
-                        <li class="gain-point">Tự chủ & Kiểm soát: Được tự tay chỉnh sửa dễ dàng.</li>
-                        <li class="gain-point">Minh bạch & Rõ ràng: Về chi phí, quy trình làm việc.</li>
-                        <li class="gain-point">Hiệu quả kinh doanh: Công cụ hỗ trợ bán hàng thật sự.</li>
-                        <li class="gain-point">Sự chuyên nghiệp: "Ngôi nhà online" đáng tự hào.</li>
-                        <li class="gain-point"><strong>Khát khao thầm kín:</strong> Tìm được đối tác trọn gói, để tập trung 100% vào kinh doanh.</li>
+            <!-- Yếu tố 4: Mong muốn -->
+             <div class="canvas-card p-6 md:col-span-2 lg:col-span-3">
+                <h2 class="card-title card-title-gains">YẾU TỐ 4: MONG MUỐN & KHÁT VỌNG (GAINS)</h2>
+                <div class="card-content text-gray-700">
+                     <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2">
+                        <li class="list-item"><strong>An tâm & Ổn định:</strong> Cần một giải pháp "chắc chắn", đáng tin cậy để họ có thể "ngủ ngon" và không lo sự cố.</li>
+                        <li class="list-item"><strong>Tự chủ & Kiểm soát:</strong> Khao khát được tự tay chỉnh sửa thông tin, hình ảnh, bài viết một cách dễ dàng.</li>
+                        <li class="list-item"><strong>Minh bạch & Rõ ràng:</strong> Cần một đối tác làm việc rõ ràng về chi phí, tính năng, quy trình và hỗ trợ.</li>
+                        <li class="list-item"><strong>Hiệu quả kinh doanh:</strong> Cần một công cụ thực sự hỗ trợ bán hàng và marketing, không chỉ để "làm cảnh".</li>
+                        <li class="list-item"><strong>Sự chuyên nghiệp:</strong> Muốn sở hữu một "ngôi nhà online" mà họ có thể tự hào giới thiệu với khách hàng.</li>
+                        <li class="list-item"><strong>Khát khao thầm kín (Hidden Desire):</strong> Tìm được đối tác "trọn gói" để quên đi vấn đề kỹ thuật và tập trung 100% vào kinh doanh.</li>
                     </ul>
                 </div>
             </div>
-
-            <!-- Card 5: Yếu tố thúc đẩy -->
-            <div class="canvas-card lg:col-span-2 xl:col-span-1">
-                <h3>YẾU TỐ 5: THÚC ĐẨY MUA HÀNG (DRIVERS)</h3>
-                
-                <h4>A. YÊU CẦU BẮT BUỘC</h4>
-                <ul class="list-disc">
-                    <li>Bàn giao toàn bộ quyền quản trị.</li>
-                    <li>Giao diện dễ chỉnh sửa cho người không chuyên.</li>
-                    <li>Hướng dẫn sử dụng rõ ràng (video, tài liệu).</li>
-                    <li>Cam kết hỗ trợ NHANH khi có sự cố.</li>
-                </ul>
-
-                <h4>B. NGÂN SÁCH & GIÁ CẢ</h4>
-                <p class="text-gray-300 bg-gray-700/50 p-3 rounded-md">Sẵn sàng trả giá cao hơn để đổi lấy sự an tâm. Tư duy: <strong class="text-yellow-400">"Đắt nhưng xắt ra miếng"</strong>.</p>
-                
-                <h4>C. RÀO CẢN/PHẢN ĐỐI PHỔ BIẾN</h4>
-                <ul class="list-disc italic text-red-400/80">
-                    <li>"Tôi không rành công nghệ, có dùng được không?"</li>
-                    <li>"Làm xong có phát sinh chi phí ẩn không?"</li>
-                    <li>"Có cam kết hỗ trợ lâu dài không?"</li>
-                </ul>
-
-                <h4>D. CÁC BÊN LIÊN QUAN</h4>
-                 <ul class="list-disc">
-                    <li>Vợ/chồng.</li>
-                    <li>Đội ngũ marketing/sales.</li>
+            
+            <!-- Yếu tố 5: Yếu tố thúc đẩy mua hàng -->
+            <div class="canvas-card p-6 lg:col-span-3">
+                 <h2 class="card-title">YẾU TỐ 5: YẾU TỐ THÚC ĐẨY MUA HÀNG (PURCHASE DRIVERS)</h2>
+                 <div class="card-content grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6">
+                    <div>
+                         <h3 class="font-semibold text-gray-800 mb-2">A. YÊU CẦU BẮT BUỘC</h3>
+                         <div class="space-y-3">
+                            <div>
+                                <h4 class="font-medium text-gray-600">Tính năng:</h4>
+                                <ul class="space-y-1 text-gray-700 list-disc list-inside pl-4">
+                                     <li>Phải bàn giao toàn bộ quyền quản trị website.</li>
+                                     <li>Giao diện quản trị thân thiện, dễ chỉnh sửa cho người không chuyên.</li>
+                                 </ul>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-gray-600">Dịch vụ:</h4>
+                                <ul class="space-y-1 text-gray-700 list-disc list-inside pl-4">
+                                     <li>Phải có hướng dẫn sử dụng rõ ràng, dễ hiểu (video, tài liệu).</li>
+                                     <li>Phải cam kết hỗ trợ NHANH khi có sự cố.</li>
+                                     <li>Tư vấn có tâm, dựa trên nhu cầu thật, không "vẽ" thêm dịch vụ.</li>
+                                 </ul>
+                            </div>
+                         </div>
+                    </div>
+                     <div>
+                         <h3 class="font-semibold text-gray-800 mb-2">B. NGÂN SÁCH & GIÁ CẢ</h3>
+                         <p class="text-gray-700">Sẵn sàng trả giá cao hơn một chút so với mặt bằng chung để đổi lấy sự an tâm, chất lượng và dịch vụ hỗ trợ lâu dài. Tư duy: "Đắt nhưng xắt ra miếng".</p>
+                     </div>
+                     <div>
+                         <h3 class="font-semibold text-gray-800 mb-2">C. CÁC RÀO CẢN/PHẢN ĐỐI PHỔ BIẾN</h3>
+                         <ul class="space-y-2 text-gray-700 list-disc list-inside">
+                             <li>"Tôi không rành công nghệ, có dùng được không?" (Nỗi sợ về sự phức tạp)</li>
+                             <li>"Làm xong có phát sinh chi phí ẩn gì nữa không?" (Nỗi sợ về sự thiếu minh bạch)</li>
+                             <li>"Bên bạn có cam kết hỗ trợ lâu dài không, hay lại 'đem con bỏ chợ'?" (Nỗi sợ bị bỏ rơi)</li>
+                         </ul>
+                     </div>
+                     <div>
+                        <h3 class="font-semibold text-gray-800 mb-2">D. CÁC BÊN LIÊN QUAN</h3>
+                        <ul class="space-y-2 text-gray-700 list-disc list-inside">
+                            <li>Vợ/chồng (nếu là hộ kinh doanh).</li>
+                            <li>Đội ngũ marketing/sales (nếu là SME).</li>
+                        </ul>
+                     </div>
+                 </div>
+            </div>
+            
+             <!-- Yếu tố 6: Ngôn ngữ, Niềm tin & Định kiến -->
+            <div class="canvas-card p-6 lg:col-span-3">
+                <h2 class="card-title">YẾU TỐ 6: NGÔN NGỮ, NIỀM TIN & ĐỊNH KIẾN (VOICE OF CUSTOMER)</h2>
+                <div class="card-content">
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <div>
+                            <h3 class="font-semibold text-green-800 mb-2">A. NGÔN NGỮ MONG MUỐN (DESIRE)</h3>
+                            <div class="flex flex-wrap gap-2">
+                               <span class="bg-green-100 text-green-800 text-sm font-medium px-2.5 py-0.5 rounded">tối ưu web chuẩn SEO</span>
+                               <span class="bg-green-100 text-green-800 text-sm font-medium px-2.5 py-0.5 rounded">hiệu quả</span>
+                               <span class="bg-green-100 text-green-800 text-sm font-medium px-2.5 py-0.5 rounded">ra đơn</span>
+                               <span class="bg-green-100 text-green-800 text-sm font-medium px-2.5 py-0.5 rounded">phí rẻ 1 chút</span>
+                               <span class="bg-green-100 text-green-800 text-sm font-medium px-2.5 py-0.5 rounded">bàn giao source</span>
+                               <span class="bg-green-100 text-green-800 text-sm font-medium px-2.5 py-0.5 rounded">tự chỉnh sửa trên website</span>
+                               <span class="bg-green-100 text-green-800 text-sm font-medium px-2.5 py-0.5 rounded">dễ quản trị cho người không rành</span>
+                            </div>
+                        </div>
+                         <div>
+                            <h3 class="font-semibold text-blue-800 mb-2">B. NGÔN NGỮ ĐỒNG NHẤT HÓA (IDENTIFICATION)</h3>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-blue-100 text-blue-800 text-sm font-medium px-2.5 py-0.5 rounded">em là người mới</span>
+                                <span class="bg-blue-100 text-blue-800 text-sm font-medium px-2.5 py-0.5 rounded">em không biết 1 chút gì về web</span>
+                                <span class="bg-blue-100 text-blue-800 text-sm font-medium px-2.5 py-0.5 rounded">em không rành công nghệ</span>
+                                <span class="bg-blue-100 text-blue-800 text-sm font-medium px-2.5 py-0.5 rounded">kinh doanh online nhỏ</span>
+                                <span class="bg-blue-100 text-blue-800 text-sm font-medium px-2.5 py-0.5 rounded">toàn tự mò mẫm</span>
+                            </div>
+                        </div>
+                         <div>
+                            <h3 class="font-semibold text-red-800 mb-2">C. NIỀM TIN & ĐỊNH KIẾN (BELIEF / PREJUDICE)</h3>
+                            <div class="flex flex-wrap gap-2">
+                                 <span class="bg-red-100 text-red-800 text-sm font-medium px-2.5 py-0.5 rounded">tiền mất tật mang</span>
+                                 <span class="bg-red-100 text-red-800 text-sm font-medium px-2.5 py-0.5 rounded">dính phốt… nên cũng hơi rén</span>
+                                 <span class="bg-red-100 text-red-800 text-sm font-medium px-2.5 py-0.5 rounded">Do mình ngu nên mình chịu</span>
+                                 <span class="bg-red-100 text-red-800 text-sm font-medium px-2.5 py-0.5 rounded">đắt chút nhưng nó chất</span>
+                                 <span class="bg-red-100 text-red-800 text-sm font-medium px-2.5 py-0.5 rounded">bị bỏ con giữa chợ</span>
+                                 <span class="bg-red-100 text-red-800 text-sm font-medium px-2.5 py-0.5 rounded">tốn tiền hoài không ra đơn</span>
+                                 <span class="bg-red-100 text-red-800 text-sm font-medium px-2.5 py-0.5 rounded">Haravan… đụng gì cũng mất phí</span>
+                                 <span class="bg-red-100 text-red-800 text-sm font-medium px-2.5 py-0.5 rounded">không mua hosting của họ thì không hỗ trợ</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-8 border-t pt-6">
+                         <h3 class="font-semibold text-gray-800 mb-4 text-lg">D. HỆ THỐNG HÓA & TÌM INSIGHT (“ĐIỂM NÓNG”)</h3>
+                         <ul class="space-y-3 text-gray-700">
+                            <li><span class="insight-highlight">“Tiền mất tật mang”</span> → Định kiến mạnh, lặp lại nhiều → Nỗi sợ mất tiền, mất kiểm soát khi thuê làm web.</li>
+                            <li><span class="insight-highlight">“Do mình ngu nên mình chịu”</span> → Cảm xúc tự trách & tổn thương sâu → Cần một bên đáng tin cậy & hướng dẫn tận tâm.</li>
+                            <li><span class="insight-highlight">“Dính phốt… nên cũng hơi rén”</span> → Định kiến tiêu cực → Khách hàng mất niềm tin, luôn ở trạng thái phòng thủ.</li>
+                            <li><span class="insight-highlight">“Đắt chút nhưng nó chất”</span> → Niềm tin tích cực → Nhóm khách hàng sẵn sàng trả giá cao hơn để được uy tín – hỗ trợ thật.</li>
+                            <li><span class="insight-highlight">“Em là người mới / không rành công nghệ”</span> → Xuất hiện liên tục → Thị trường thiếu hiểu biết kỹ thuật, cần ngôn ngữ đơn giản.</li>
+                            <li><span class="insight-highlight">“Bị bỏ con giữa chợ / bạch vô âm tín”</span> → Nỗi đau cốt lõi → Họ sợ bị bỏ rơi sau khi bàn giao, cần cam kết đồng hành.</li>
+                            <li><span class="insight-highlight">“Tốn tiền hoài không ra đơn”</span> → Nỗi đau về kết quả kinh doanh → Họ không cần web, họ cần web ra đơn.</li>
+                            <li><span class="insight-highlight">“Haravan... đụng chỉnh cái gì cũng mất phí”</span> → Định kiến nền tảng → Tâm lý muốn tự chủ, không muốn bị phụ thuộc.</li>
+                         </ul>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+         <!-- Total Insight -->
+        <div class="canvas-card p-6 mt-8 bg-blue-50 border-2 border-blue-200">
+            <h2 class="card-title text-blue-800 border-blue-200">TỔNG INSIGHT RÚT RA</h2>
+            <div class="card-content">
+                <ul class="space-y-3 text-blue-900 font-medium text-lg list-disc list-inside">
+                    <li>Họ không muốn web đẹp, họ muốn web <span class="font-bold">ra đơn & dễ chỉnh sửa.</span></li>
+                    <li>Họ sợ bị lừa, sợ <span class="font-bold">mất kiểm soát</span>, sợ <span class="font-bold">bị bỏ rơi.</span></li>
+                    <li>Họ khát khao <span class="font-bold">tự chủ</span>, muốn hiểu – muốn tự quản – muốn toàn quyền.</li>
+                    <li>Họ sẵn sàng <span class="font-bold">trả cao hơn</span> cho sự an tâm & hỗ trợ thật.</li>
                 </ul>
             </div>
-
         </div>
     </div>
 </body>
 </html>
+
