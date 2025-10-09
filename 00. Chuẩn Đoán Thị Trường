@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tài liệu chuẩn đoán thị trường eClick Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* slate-50 */
+        }
+        .card {
+            background-color: white;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            border: 1px solid #e2e8f0; /* slate-200 */
+        }
+        .citation {
+            font-size: 0.75rem;
+            color: #475569; /* slate-600 */
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body class="text-slate-800">
+
+    <div class="container mx-auto max-w-5xl py-12 px-4 sm:px-6 lg:px-8">
+
+        <!-- Header -->
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight">TÀI LIỆU CHUẨN ĐOÁN THỊ TRƯỜDNG</h1>
+            <h2 class="text-2xl md:text-3xl font-bold text-cyan-600 mt-2">DỰ ÁN: ECLICK WEBSITE</h2>
+            <p class="mt-4 text-slate-500">Nền tảng Thiết kế Website Bán hàng Kéo-Thả</p>
+            <p class="mt-2 text-sm text-slate-400">Ngày thực hiện: 09/10/2025</p>
+        </header>
+
+        <!-- Main Content -->
+        <main class="space-y-12">
+
+            <!-- PHẦN 1: PHÂN TÍCH NỀN TẢNG & CHIẾN LƯỢC CỐT LÕI -->
+            <section class="card p-6 md:p-8">
+                <h2 class="text-3xl font-bold text-slate-800 border-b border-slate-200 pb-4 mb-6">
+                    <i class="fas fa-compass text-cyan-500 mr-2"></i> PHẦN 1: PHÂN TÍCH NỀN TẢNG & CHIẾN LƯỢC CỐT LÕI
+                </h2>
+                <p class="text-slate-600">Đây là những trụ cột chiến lược, là kim chỉ nam cho mọi hoạt động truyền thông bán sản phẩm eClick Website.</p>
+
+                <!-- 1.1. CHẨN ĐOÁN THỊ TRƯỜNG -->
+                <div class="mt-8">
+                    <h3 class="text-2xl font-bold text-slate-700 mb-6 border-l-4 border-cyan-500 pl-4">1.1. CHẨN ĐOÁN THỊ TRƯỜNG THEO EUGENE SCHWARTZ</h3>
+
+                    <!-- 1.1.1. Mass Desire -->
+                    <div class="mb-8 p-6 bg-slate-50 rounded-lg border border-slate-200">
+                        <h4 class="text-xl font-bold text-slate-800 mb-3">1.1.1. Khát Khao Đám Đông (Mass Desire)</h4>
+                        <p class="citation mb-3">Nguồn tri thức: `Breakthrough Advertising - Chương 1: Mass Desire.json` [cite: 1]</p>
+                        <div class="bg-cyan-50 border-l-4 border-cyan-400 text-cyan-900 p-4 rounded-r-lg mb-4">
+                            <p class="font-semibold">Khát khao chủ lực cần nhắm đến:</p>
+                            <p class="mt-1">Giành lại quyền kiểm soát hoàn toàn kênh bán hàng online qua website, được giải phóng khỏi sự phụ thuộc và các rắc rối kỹ thuật, để có thể an tâm tập trung vào công việc kinh doanh cốt lõi của mình.</p>
+                        </div>
+                        <p class="font-semibold text-slate-700 mb-2">Các góc độ Khát khao chi tiết (Ngôn ngữ thị trường):</p>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <i class="fas fa-rocket text-cyan-500 mt-1 mr-3"></i>
+                                <div>
+                                    <strong class="text-slate-800">Khát khao #1:</strong> Thoát khỏi cảm giác bất lực, bị phụ thuộc vào bên thứ ba.
+                                    <blockquote class="text-sm text-slate-500 italic border-l-2 border-slate-300 pl-2 mt-1">"Tôi chán ngấy việc phải chờ đợi, phải nhờ vả. Tôi muốn được giải phóng."</blockquote>
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-hand-rock text-cyan-500 mt-1 mr-3"></i>
+                                <div>
+                                    <strong class="text-slate-800">Khát khao #2:</strong> Được toàn quyền kiểm soát website, muốn sửa, chỉnh gì cũng nhanh.
+                                    <blockquote class="text-sm text-slate-500 italic border-l-2 border-slate-300 pl-2 mt-1">"Tôi muốn tự tay làm chủ kênh bán hàng của mình. Ý tưởng tới đâu, thực thi tới đó."</blockquote>
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-shield-alt text-cyan-500 mt-1 mr-3"></i>
+                                <div>
+                                    <strong class="text-slate-800">Khát khao #3:</strong> Giải phóng khỏi rắc rối kỹ thuật & Có được sự an tâm.
+                                    <blockquote class="text-sm text-slate-500 italic border-l-2 border-slate-300 pl-2 mt-1">"Tôi không rành công nghệ, tôi cần một thứ gì đó thật đơn giản, dễ dùng như Canva để không phải lo lắng về lỗi kỹ thuật."</blockquote>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- 1.1.2. State of Awareness -->
+                    <div class="mb-8 p-6 bg-slate-50 rounded-lg border border-slate-200">
+                        <h4 class="text-xl font-bold text-slate-800 mb-3">1.1.2. Trạng Thái Nhận Thức (State of Awareness)</h4>
+                        <p class="citation mb-3">Nguồn tri thức: `Breakthrough Advertising - Chương 2: Giai đoạn nhận thức.json` [cite: 2]</p>
+                        <p class="mb-2"><strong class="text-slate-700">Giai đoạn:</strong> <span class="bg-yellow-100 text-yellow-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded-full">Giai đoạn 3 - Biết giải pháp, chưa biết sản phẩm.</span> [cite: 2]</p>
+                        <p class="mb-4 text-slate-600"><strong>Mô tả:</strong> Khách hàng biết họ muốn những gì sản phẩm làm, nhưng chưa biết rằng có một sản phẩm (eClick Website) có thể làm điều đó cho họ. Mong muốn của họ còn "chưa được định hình rõ ràng". [cite: 2]</p>
+                        <div class="bg-white p-4 rounded border border-slate-200">
+                             <p class="font-semibold text-slate-700 mb-2">Bằng chứng:</p>
+                             <ul class="list-disc list-inside space-y-1 text-slate-600 text-sm">
+                                <li>Đã hình dung ra một giải pháp lý tưởng ("nền tảng làm web kéo thả dễ như Canva").</li>
+                                <li>Đang chủ động tìm kiếm một giải pháp dễ dàng hơn nhưng chưa biết đến eClick Website.</li>
+                                <li>Các truy vấn tìm kiếm cho thấy sự quan tâm đến "tự thiết kế website", "không cần code", "website kéo thả".</li>
+                             </ul>
+                        </div>
+                        <div class="mt-4 bg-blue-50 border-l-4 border-blue-400 text-blue-900 p-4 rounded-r-lg">
+                            <p class="font-semibold">Chỉ định chiến lược cho tiêu đề:</p>
+                            <p class="mt-1 text-sm">Nêu tên mong muốn và/hoặc giải pháp trong tiêu đề; chứng minh giải pháp đạt được; chỉ ra Cách Hoạt Động (Mechanism) nằm trong sản phẩm của bạn. [cite: 2]</p>
+                        </div>
+                    </div>
+                    
+                    <!-- 1.1.3. State of Sophistication -->
+                    <div class="p-6 bg-slate-50 rounded-lg border border-slate-200">
+                        <h4 class="text-xl font-bold text-slate-800 mb-3">1.1.3. Trạng Thái Bão Hòa (State of Sophistication)</h4>
+                        <p class="citation mb-3">Nguồn tri thức: `Breakthrough Advertising - Chương 3: Giai đoạn bão hòa.json` [cite: 3]</p>
+                        <p class="mb-2"><strong class="text-slate-700">Giai đoạn:</strong> <span class="bg-red-100 text-red-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded-full">Giai đoạn 4 - Tinh vi hóa & Mở rộng.</span> [cite: 3]</p>
+                        <p class="mb-4 text-slate-600"><strong>Mô tả:</strong> Khách hàng không còn tin vào những lời hứa cũ. Để thành công, bạn phải mở rộng/phóng đại cơ chế thành công của mình, làm cho nó dễ dàng, nhanh hơn, chắc chắn hơn. [cite: 3]</p>
+                        <div class="bg-white p-4 rounded border border-slate-200">
+                             <p class="font-semibold text-slate-700 mb-2">Bằng chứng:</p>
+                             <ul class="list-disc list-inside space-y-1 text-slate-600 text-sm">
+                                <li>Đã nghe quá nhiều lời hứa "thiết kế website chuyên nghiệp" và bị thất vọng.</li>
+                                <li>Nhiều đối thủ bắt đầu nhấn mạnh "kéo-thả", "không cần code" cho thấy thị trường đang tìm kiếm cơ chế mới, dễ dàng hơn.</li>
+                                <li>Sự xuất hiện của các công cụ AI tạo web cho thấy mức độ tinh vi của thị trường đang tăng lên.</li>
+                             </ul>
+                        </div>
+                        <div class="mt-4 bg-blue-50 border-l-4 border-blue-400 text-blue-900 p-4 rounded-r-lg">
+                            <p class="font-semibold">Chỉ định chiến lược cho tiêu đề:</p>
+                            <p class="mt-1 text-sm">Mở rộng hoặc phóng đại cơ chế "kéo-thả". Làm cho nó dễ dàng hơn, nhanh hơn, chắc chắn hơn. Mọi thông điệp phải tập trung vào việc chứng minh CƠ CHẾ độc đáo này. [cite: 3]</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 1.2. ĐỀ XUẤT CHIẾN LƯỢC TỔNG THỂ -->
+                 <div class="mt-8">
+                    <h3 class="text-2xl font-bold text-slate-700 mb-6 border-l-4 border-cyan-500 pl-4">1.2. ĐỀ XUẤT CHIẾN LƯỢC TỔNG THỂ CHO BÀI BÁN HÀNG</h3>
+                    <div class="space-y-6">
+                        <div class="card p-6">
+                            <p class="font-semibold text-slate-600 text-sm uppercase tracking-wider">Ý Tưởng Lớn (Big Idea)</p>
+                            <p class="text-xl font-bold text-slate-800 mt-1">"Giành Lại Quyền Kiểm Soát Website & Tự Do Kinh Doanh Nhờ Công Nghệ Kéo-Thả Dễ Như Canva."</p>
+                            <p class="text-sm text-slate-500 mt-2"><strong>Phân tích:</strong> Chạm vào khát khao cốt lõi (kiểm soát, giải phóng) và giới thiệu cơ chế độc đáo (kéo-thả dễ như Canva) để tạo sự khác biệt.</p>
+                        </div>
+                         <div class="card p-6">
+                            <p class="font-semibold text-slate-600 text-sm uppercase tracking-wider">Kiểu Lead Phù Hợp <span class="citation">`Great Lead _ Deep Research.json` [cite: 4]</span></p>
+                            <div class="mt-3 divide-y divide-slate-200">
+                                <div class="py-3">
+                                    <p class="text-lg font-bold text-slate-800">Problem-Solution Lead (Vấn đề - Giải pháp)</p>
+                                    <p class="text-sm text-slate-500 mt-1"><strong>Lý do:</strong> Phù hợp nhất với khách hàng hoài nghi, có trải nghiệm tồi tệ. Bắt đầu bằng nỗi đau (website chắp vá, phụ thuộc) sẽ tạo đồng cảm mạnh mẽ. [cite: 4]</p>
+                                </div>
+                                 <div class="pt-3">
+                                    <p class="text-lg font-bold text-slate-800">Story Lead (Câu chuyện)</p>
+                                    <p class="text-sm text-slate-500 mt-1"><strong>Lý do:</strong> Lựa chọn mạnh mẽ để xuyên qua sự hoài nghi. Kể câu chuyện về một chủ shop tương tự tìm thấy sự giải thoát. [cite: 4]</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 1.3. PHÂN TÍCH ĐỐI THỦ -->
+                <div class="mt-8">
+                    <h3 class="text-2xl font-bold text-slate-700 mb-6 border-l-4 border-cyan-500 pl-4">1.3. PHÂN TÍCH ĐỐI THỦ CẠNH TRANH (GOOGLE & YOUTUBE)</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="p-4 bg-slate-50 rounded-lg border">
+                             <h4 class="font-bold text-slate-700 mb-2">Từ Khóa & Lời Hứa Phổ Biến</h4>
+                             <ul class="list-disc list-inside space-y-1 text-sm text-slate-600">
+                                 <li>"Thiết kế website chuyên nghiệp, chuẩn SEO"</li>
+                                 <li>"Giá rẻ", "Trọn gói", "Uy tín"</li>
+                                 <li>"Tự thiết kế", "Không cần code", "Kéo-thả"</li>
+                                 <li>Hướng dẫn WordPress (Flatsome, Elementor)</li>
+                                 <li>Xu hướng "AI tạo web"</li>
+                             </ul>
+                        </div>
+                         <div class="p-4 bg-slate-50 rounded-lg border">
+                             <h4 class="font-bold text-slate-700 mb-2">Điểm Yếu Của Đối Thủ (Cơ hội cho eClick)</h4>
+                             <ul class="list-disc list-inside space-y-1 text-sm text-slate-600">
+                                 <li class="text-red-600"><strong>Lời hứa chung chung:</strong> Thiếu cơ chế độc đáo, dễ hiểu.</li>
+                                 <li class="text-red-600"><strong>Phức tạp:</strong> WordPress vẫn khó cho người không chuyên.</li>
+                                 <li class="text-red-600"><strong>Chi phí ẩn/Phát sinh:</strong> Các giải pháp "rẻ" thường không trọn gói.</li>
+                                 <li class="text-red-600"><strong>Sự phụ thuộc:</strong> Vẫn tiềm ẩn rủi ro phụ thuộc vào agency.</li>
+                                 <li class="text-red-600"><strong>Thiếu sự an tâm:</strong> Không giải quyết nỗi sợ "bị bỏ rơi", "mất kiểm soát".</li>
+                             </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 1.4. ĐƠN THUỐC CHIẾN LƯỢC -->
+                <div class="mt-8">
+                    <h3 class="text-2xl font-bold text-slate-700 mb-6 border-l-4 border-cyan-500 pl-4">1.4. ĐỀ XUẤT "ĐƠN THUỐC CHIẾN LƯỢC" CHO ECLICK WEBSITE</h3>
+                    <div class="card p-6 bg-cyan-800 text-white">
+                        <p class="mb-2"><strong>Sản phẩm:</strong> Nền tảng thiết kế website bán hàng Kéo-Thả (eClick Website).</p>
+                        <p class="mb-4"><strong>Khách hàng mục tiêu:</strong> Chủ doanh nghiệp nhỏ/vừa, không rành công nghệ, đã có trải nghiệm tồi tệ.</p>
+                        <ul class="space-y-2 border-t border-cyan-700 pt-4">
+                            <li><strong class="text-cyan-300">Khát khao đám đông chính:</strong> Giành lại quyền kiểm soát, được giải phóng, và có sự an tâm.</li>
+                            <li><strong class="text-cyan-300">Trạng thái nhận thức:</strong> Giai đoạn 3 - Biết giải pháp, chưa biết sản phẩm. [cite: 2]</li>
+                            <li><strong class="text-cyan-300">Trạng thái bão hòa:</strong> Giai đoạn 4 - Tinh vi hóa & Mở rộng. [cite: 3]</li>
+                            <li><strong class="text-cyan-300">Ý Tưởng Lớn (Big Idea):</strong> "Giành Lại Quyền Kiểm Soát Website & Tự Do Kinh Doanh Nhờ Công Nghệ Kéo-Thả Dễ Như Canva."</li>
+                            <li><strong class="text-cyan-300">Kiểu Lead phù hợp:</strong> Problem-Solution Lead hoặc Story Lead.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </section>
+
+             <!-- Tóm tắt chung -->
+            <section class="mt-12 text-center">
+                 <div class="p-6 bg-slate-100 rounded-lg border border-slate-200">
+                    <h3 class="text-xl font-bold text-slate-800">Tóm Tắt Hướng Đi Cho Bài Viết</h3>
+                    <p class="mt-2 text-slate-600 max-w-2xl mx-auto">
+                        Bài viết sẽ đi từ nỗi đau và sự hoài nghi sâu sắc của khách hàng (do những trải nghiệm xấu trong quá khứ và sự phức tạp của thị trường hiện tại), sau đó giới thiệu eClick Website như một cơ chế mới, độc đáo (kéo-thả dễ như Canva) giúp họ giành lại quyền kiểm soát, tự chủ và an tâm phát triển kinh doanh.
+                    </p>
+                 </div>
+            </section>
+
+        </main>
+    </div>
+
+</body>
+</html>
