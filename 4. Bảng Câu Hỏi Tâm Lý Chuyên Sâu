@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bảng Câu Hỏi Tâm Lý Chuyên Sâu - Khách Hàng eClick Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #111827; /* gray-900 */
+        }
+        .question-card {
+            background-color: #1f2937; /* gray-800 */
+            border: 1px solid #374151; /* gray-700 */
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .question-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2), 0 4px 6px -2px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="text-gray-200 p-4 sm:p-6 md:p-8">
+    <div class="max-w-4xl mx-auto">
+
+        <!-- Header -->
+        <header class="text-center mb-12">
+            <h1 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">Bảng Câu Hỏi Tâm Lý Chuyên Sâu</h1>
+            <p class="mt-2 text-lg text-gray-400">Khách Hàng Mục Tiêu: eClick Website</p>
+        </header>
+
+        <!-- Main Content -->
+        <main class="space-y-12">
+
+            <!-- PHẦN 1 -->
+            <section>
+                <div class="mb-6 pb-3 border-b-2 border-teal-500/30">
+                    <h2 class="text-2xl font-bold text-teal-400">PHẦN 1: NỖI ĐAU & NIỀM TIN GIỚI HẠN VỀ SẢN PHẨM</h2>
+                    <p class="mt-1 text-gray-400 italic">Tâm lý cốt lõi: Nỗi sợ bị lừa dối lần nữa, sự tự ti về năng lực công nghệ và sự hoài nghi về chất lượng của một giải pháp "dễ dàng".</p>
+                </div>
+                <div class="space-y-6">
+                    <!-- Question 1 -->
+                    <div class="question-card rounded-lg p-6">
+                        <p class="text-lg font-semibold text-cyan-400 mb-2"><i class="fas fa-star text-yellow-400 mr-2"></i>1. Câu hỏi cốt tử (Về sự "Dễ Dàng"):</p>
+                        <blockquote class="text-gray-300 border-l-4 border-gray-600 pl-4 italic">Bạn quảng cáo "dễ như Canva", nhưng đó có phải chỉ là lời hoa mỹ không? Cụ thể, nếu tôi, một người thực sự "mù công nghệ" và đã từng thất bại, không thể tự mình làm được sau khi mua, thì sao? Có "lối thoát an toàn" nào cho tôi không, hay tôi lại mất trắng tiền một lần nữa?</blockquote>
+                        <div class="mt-4 bg-gray-900/50 rounded p-4 border-l-4 border-red-500">
+                            <p class="font-semibold text-red-400"><i class="fas fa-user-secret mr-2"></i>Nỗi sợ ngầm:</p>
+                            <p class="text-gray-400 mt-1">Tôi sợ mình không đủ thông minh để dùng công cụ của các bạn, và cuối cùng lại thất bại, lại lãng phí. Tôi cần một sự đảm bảo, không phải một lời hứa suông.</p>
+                        </div>
+                    </div>
+                    <!-- Question 2 -->
+                    <div class="question-card rounded-lg p-6">
+                        <p class="text-lg font-semibold text-cyan-400 mb-2"><i class="fas fa-question-circle mr-2"></i>2. Câu hỏi về sự bền vững:</p>
+                        <blockquote class="text-gray-300 border-l-4 border-gray-600 pl-4 italic">Giả sử tôi tự xây được website, nó có "bền" không? Nó có ổn định không, hay chỉ vài tháng lại phát sinh lỗi vớ vẩn như cái web cũ? Nền tảng của các bạn có được cập nhật, bảo trì thường xuyên để chống lại hacker hay các lỗi mới không?</blockquote>
+                        <div class="mt-4 bg-gray-900/50 rounded p-4 border-l-4 border-red-500">
+                            <p class="font-semibold text-red-400"><i class="fas fa-user-secret mr-2"></i>Nỗi sợ ngầm:</p>
+                            <p class="text-gray-400 mt-1">Tôi sợ một sản phẩm "mì ăn liền" thì chất lượng cũng "mì ăn liền". Tôi sợ website sẽ sập đúng lúc tôi đang chạy quảng cáo. Tôi cần sự an tâm về kỹ thuật lâu dài.</p>
+                        </div>
+                    </div>
+                     <!-- Question 3 & 4 -->
+                    <div class="question-card rounded-lg p-6">
+                        <p class="text-lg font-semibold text-cyan-400 mb-2"><i class="fas fa-question-circle mr-2"></i>3. Câu hỏi về quyền sở hữu thực sự:</p>
+                        <blockquote class="text-gray-300 border-l-4 border-gray-600 pl-4 italic">Website này có thực sự là của tôi không? Nếu sau này tôi không muốn dùng nền tảng của bạn nữa, tôi có thể mang toàn bộ dữ liệu (bài viết, hình ảnh, thông tin khách hàng) đi nơi khác không? Hay tất cả sẽ bị "khóa chân" vĩnh viễn trên nền tảng của các bạn?</blockquote>
+                        <div class="mt-4 bg-gray-900/50 rounded p-4 border-l-4 border-red-500">
+                            <p class="font-semibold text-red-400"><i class="fas fa-user-secret mr-2"></i>Nỗi sợ ngầm:</p>
+                            <p class="text-gray-400 mt-1">Tôi ám ảnh việc bị "làm khó", bị giữ source code. Tôi muốn sở hữu tài sản của mình, không phải đi thuê. Tôi sợ bị phụ thuộc vào các bạn mãi mãi.</p>
+                        </div>
+                    </div>
+                    <div class="question-card rounded-lg p-6">
+                        <p class="text-lg font-semibold text-cyan-400 mb-2"><i class="fas fa-question-circle mr-2"></i>4. Câu hỏi về hiệu quả kinh doanh:</p>
+                        <blockquote class="text-gray-300 border-l-4 border-gray-600 pl-4 italic">Ngoài việc "dễ làm", website tạo ra từ eClick có thực sự giúp tôi bán được hàng không? Nó có được tối ưu sẵn để chạy quảng cáo (tốc độ tải trang, cấu trúc), để Google dễ tìm thấy không (SEO)? Hay nó chỉ đẹp thôi còn không hiệu quả, lại "tốn tiền hoài không ra đơn"?</blockquote>
+                        <div class="mt-4 bg-gray-900/50 rounded p-4 border-l-4 border-red-500">
+                            <p class="font-semibold text-red-400"><i class="fas fa-user-secret mr-2"></i>Nỗi sợ ngầm:</p>
+                            <p class="text-gray-400 mt-1">Tôi không cần một món đồ chơi, tôi cần một công cụ kinh doanh. Tôi sợ một nền tảng kéo-thả sẽ tạo ra những trang web nặng nề, không thân thiện với các công cụ marketing, khiến mọi nỗ lực của tôi trở nên vô nghĩa.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+             <!-- PHẦN 2 -->
+            <section>
+                <div class="mb-6 pb-3 border-b-2 border-teal-500/30">
+                    <h2 class="text-2xl font-bold text-teal-400">PHẦN 2: NIỀM TIN VỀ NGƯỜI BÁN / THƯƠNG HIỆU</h2>
+                    <p class="mt-1 text-gray-400 italic">Tâm lý cốt lõi: Sự mất niềm tin vào các nhà cung cấp dịch vụ, cần xác thực chuyên môn và tầm nhìn dài hạn của người đứng sau sản phẩm.</p>
+                </div>
+                 <div class="space-y-6">
+                    <div class="question-card rounded-lg p-6">
+                        <p class="text-lg font-semibold text-cyan-400 mb-2"><i class="fas fa-star text-yellow-400 mr-2"></i>5. Câu hỏi cốt tử (Về Danh Tính):</p>
+                        <blockquote class="text-gray-300 border-l-4 border-gray-600 pl-4 italic">Các bạn là ai? Các bạn có phải là những người làm kỹ thuật thực sự, hay chỉ là một nhóm kinh doanh thấy thị trường có nhu-cầu rồi tạo ra sản phẩm? Tại sao tôi nên tin các bạn, thay vì tin một công ty thiết kế web có thâm niên 5-10 năm ngoài kia?</blockquote>
+                        <div class="mt-4 bg-gray-900/50 rounded p-4 border-l-4 border-red-500">
+                            <p class="font-semibold text-red-400"><i class="fas fa-user-secret mr-2"></i>Nỗi sợ ngầm:</p>
+                            <p class="text-gray-400 mt-1">Tôi sợ gặp phải những "tay mơ" như lời cảnh báo trên mạng. Tôi cần biết người đứng sau sản phẩm này có chuyên môn và tâm huyết thật sự không.</p>
+                        </div>
+                    </div>
+                    <div class="question-card rounded-lg p-6">
+                        <p class="text-lg font-semibold text-cyan-400 mb-2"><i class="fas fa-question-circle mr-2"></i>6. Câu hỏi về sự tồn tại của công ty:</p>
+                        <blockquote class="text-gray-300 border-l-4 border-gray-600 pl-4 italic">Điều gì đảm bảo rằng công ty của bạn sẽ không "biến mất" sau 1-2 năm? Tôi thấy rất nhiều công cụ mới ra đời rồi lại chết yểu. Lỡ tôi đang dùng ngon lành thì các bạn thông báo ngừng hoạt động, lúc đó website của tôi sẽ đi về đâu?</blockquote>
+                        <div class="mt-4 bg-gray-900/50 rounded p-4 border-l-4 border-red-500">
+                            <p class="font-semibold text-red-400"><i class="fas fa-user-secret mr-2"></i>Nỗi sợ ngầm:</p>
+                            <p class="text-gray-400 mt-1">Rủi ro lớn nhất khi dùng một nền tảng mới là sự tồn tại của chính công ty đó. Tôi cần thấy được sự cam kết và tầm nhìn dài hạn của các bạn.</p>
+                        </div>
+                    </div>
+                    <div class="question-card rounded-lg p-6">
+                        <p class="text-lg font-semibold text-cyan-400 mb-2"><i class="fas fa-question-circle mr-2"></i>7. Câu hỏi về động cơ kinh doanh:</p>
+                        <blockquote class="text-gray-300 border-l-4 border-gray-600 pl-4 italic">Tại sao các bạn lại tạo ra công cụ để khách hàng tự làm, thay vì làm dịch vụ trọn gói như các bên khác? Có thật là các bạn muốn "trao quyền" cho khách hàng, hay đây chỉ là một cách để bán sản phẩm hàng loạt và không phải chịu trách nhiệm hỗ trợ sâu?</blockquote>
+                        <div class="mt-4 bg-gray-900/50 rounded p-4 border-l-4 border-red-500">
+                            <p class="font-semibold text-red-400"><i class="fas fa-user-secret mr-2"></i>Nỗi sợ ngầm:</p>
+                            <p class="text-gray-400 mt-1">Tôi nghi ngờ về động cơ. Liệu sự "tự phục vụ" này có phải là một cách để các bạn né tránh trách nhiệm hỗ trợ hay không?</p>
+                        </div>
+                    </div>
+                 </div>
+            </section>
+            
+            <!-- PHẦN 3 -->
+            <section>
+                 <div class="mb-6 pb-3 border-b-2 border-teal-500/30">
+                    <h2 class="text-2xl font-bold text-teal-400">PHẦN 3: NHU CẦU VỀ BẰNG CHỨNG XÃ HỘI (SOCIAL PROOF)</h2>
+                    <p class="mt-1 text-gray-400 italic">Tâm lý cốt lõi: Không tin vào lời quảng cáo, chỉ tin vào kết quả thực tế từ những người giống mình.</p>
+                </div>
+                 <div class="space-y-6">
+                    <div class="question-card rounded-lg p-6">
+                        <p class="text-lg font-semibold text-cyan-400 mb-2"><i class="fas fa-star text-yellow-400 mr-2"></i>8. Câu hỏi cốt tử (Về Bằng Chứng):</p>
+                        <blockquote class="text-gray-300 border-l-4 border-gray-600 pl-4 italic">Cho tôi xem những website thực tế của những người giống tôi – tức là chủ shop, không rành công nghệ – đã tự xây dựng thành công trên nền tảng của bạn. Đừng cho tôi xem những trang web do đội ngũ của các bạn làm demo.</blockquote>
+                        <div class="mt-4 bg-gray-900/50 rounded p-4 border-l-4 border-red-500">
+                            <p class="font-semibold text-red-400"><i class="fas fa-user-secret mr-2"></i>Nỗi sợ ngầm:</p>
+                            <p class="text-gray-400 mt-1">Tôi không tin những gì các bạn nói, tôi chỉ tin những gì người giống tôi đã làm được. Tôi cần bằng chứng thực tế, không phải lời hứa hẹn.</p>
+                        </div>
+                    </div>
+                    <div class="question-card rounded-lg p-6">
+                        <p class="text-lg font-semibold text-cyan-400 mb-2"><i class="fas fa-question-circle mr-2"></i>9. Câu hỏi về chất lượng hỗ trợ:</p>
+                        <blockquote class="text-gray-300 border-l-4 border-gray-600 pl-4 italic">Những người đã dùng rồi, họ nói gì về khâu hỗ trợ của các bạn? Có ai từng gặp lỗi và được các bạn xử lý nhanh chóng, tận tình không? Hay họ cũng phải chờ đợi mòn mỏi như tôi đã từng?</blockquote>
+                        <div class="mt-4 bg-gray-900/50 rounded p-4 border-l-4 border-red-500">
+                            <p class="font-semibold text-red-400"><i class="fas fa-user-secret mr-2"></i>Nỗi sợ ngầm:</p>
+                            <p class="text-gray-400 mt-1">Sản phẩm tốt là một chuyện, nhưng hỗ trợ sau bán hàng mới là điều cốt lõi. Tôi muốn nghe câu chuyện về cách các bạn giải quyết vấn đề, chứ không chỉ là những lời khen chung chung.</p>
+                        </div>
+                    </div>
+                    <div class="question-card rounded-lg p-6">
+                        <p class="text-lg font-semibold text-cyan-400 mb-2"><i class="fas fa-question-circle mr-2"></i>10. Câu hỏi về tính xác thực:</p>
+                        <blockquote class="text-gray-300 border-l-4 border-gray-600 pl-4 italic">Những đánh giá tốt về các bạn có thật không, hay là do các bạn tự tạo ra? Có nơi nào tôi có thể đọc những đánh giá khách quan, chưa qua chỉnh sửa không, ví dụ như một cộng đồng người dùng trên Facebook chẳng hạn?</blockquote>
+                        <div class="mt-4 bg-gray-900/50 rounded p-4 border-l-4 border-red-500">
+                            <p class="font-semibold text-red-400"><i class="fas fa-user-secret mr-2"></i>Nỗi sợ ngầm:</p>
+                            <p class="text-gray-400 mt-1">Tôi cực kỳ nghi ngờ về tính xác thực của các review online. Tôi cần một nguồn thông tin đáng tin cậy.</p>
+                        </div>
+                    </div>
+                 </div>
+            </section>
+
+             <!-- PHẦN 4 -->
+            <section>
+                 <div class="mb-6 pb-3 border-b-2 border-teal-500/30">
+                    <h2 class="text-2xl font-bold text-teal-400">PHẦN 4: ƯU ĐÃI & CAM KẾT (RÀO CẢN HÀNH ĐỘNG)</h2>
+                    <p class="mt-1 text-gray-400 italic">Tâm lý cốt lõi: Cần sự minh bạch tuyệt đối và một cam kết không rủi ro để dám hành động.</p>
+                </div>
+                 <div class="space-y-6">
+                    <div class="question-card rounded-lg p-6">
+                        <p class="text-lg font-semibold text-cyan-400 mb-2"><i class="fas fa-star text-yellow-400 mr-2"></i>11. Câu hỏi cốt tử (Về Hỗ Trợ):</p>
+                        <blockquote class="text-gray-300 border-l-4 border-gray-600 pl-4 italic">"Hỗ trợ" của các bạn cụ thể là gì? Là trả lời qua email trong 24 giờ, hay là có người chat Zalo/gọi điện xử lý ngay lập tức khi tôi gặp vấn đề khẩn cấp? Thời gian hỗ trợ là giờ hành chính hay cả buổi tối và cuối tuần?</blockquote>
+                        <div class="mt-4 bg-gray-900/50 rounded p-4 border-l-4 border-red-500">
+                            <p class="font-semibold text-red-400"><i class="fas fa-user-secret mr-2"></i>Nỗi sợ ngầm:</p>
+                            <p class="text-gray-400 mt-1">Từ "hỗ trợ" rất chung chung. Tôi đã từng nghe lời hứa "hỗ trợ trọn đời" rồi nhận lại sự im lặng. Tôi cần định nghĩa rõ ràng về cam kết hỗ trợ của các bạn.</p>
+                        </div>
+                    </div>
+                    <div class="question-card rounded-lg p-6">
+                        <p class="text-lg font-semibold text-cyan-400 mb-2"><i class="fas fa-question-circle mr-2"></i>12. Câu hỏi về chính sách hoàn tiền:</p>
+                        <blockquote class="text-gray-300 border-l-4 border-gray-600 pl-4 italic">Cụ thể, nếu trong 7 hay 14 ngày đầu, tôi dùng thử và thấy mình thực sự không làm được như quảng cáo, tôi có được hoàn lại 100% tiền không? Thủ tục có phức tạp không?</blockquote>
+                        <div class="mt-4 bg-gray-900/50 rounded p-4 border-l-4 border-red-500">
+                            <p class="font-semibold text-red-400"><i class="fas fa-user-secret mr-2"></i>Nỗi sợ ngầm:</p>
+                            <p class="text-gray-400 mt-1">Đây là câu hỏi về "lối thoát an toàn". Một chính sách hoàn tiền rõ ràng, dễ dàng là bằng chứng tốt nhất cho thấy các bạn tự tin vào sản phẩm của mình.</p>
+                        </div>
+                    </div>
+                    <div class="question-card rounded-lg p-6">
+                        <p class="text-lg font-semibold text-cyan-400 mb-2"><i class="fas fa-question-circle mr-2"></i>13. Câu hỏi về chi phí ẩn:</p>
+                        <blockquote class="text-gray-300 border-l-4 border-gray-600 pl-4 italic">Bảng giá các bạn đưa ra đã phải là chi phí cuối cùng chưa? Có chi phí ẩn nào không (phí hosting, duy trì hàng năm, băng thông, SSL...)? Hay tất cả đã bao gồm trong gói dịch vụ rồi?</blockquote>
+                        <div class="mt-4 bg-gray-900/50 rounded p-4 border-l-4 border-red-500">
+                            <p class="font-semibold text-red-400"><i class="fas fa-user-secret mr-2"></i>Nỗi sợ ngầm:</p>
+                            <p class="text-gray-400 mt-1">Tôi ghét nhất việc bị "vẽ vời" thêm chi phí. Tôi cần sự minh bạch tuyệt đối về tài chính ngay từ đầu.</p>
+                        </div>
+                    </div>
+                 </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
