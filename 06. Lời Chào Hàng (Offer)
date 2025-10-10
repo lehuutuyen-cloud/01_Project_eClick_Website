@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lời Chào Hàng - eClick Website</title>
+    <title>Lời Chào Hàng Hoàn Thiện - eClick Website</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,10 +29,11 @@
 
         <header class="text-center mb-12">
             <h1 class="text-4xl md:text-5xl font-extrabold mb-4">
-                LỜI CHÀO HÀNG ECLICK WEBSITE
+                LỜI CHÀO HÀNG KHÔNG THỂ CHỐI TỪ
             </h1>
+            <h2 class="text-2xl md:text-3xl font-bold gradient-text">DÀNH CHO NỀN TẢNG ECLICK WEBSITE</h2>
             <p class="mt-4 text-gray-400 max-w-2xl mx-auto">
-                Cung cấp một tài liệu chiến lược duy nhất, hoàn chỉnh về lời chào hàng "không thể chối từ" cho khách hàng "Nguyễn Đạt Nhật", làm cơ sở cho toàn bộ hoạt động marketing và bán hàng.
+                Một tài liệu chiến lược được thiết kế để giải quyết mọi rào cản tâm lý của khách hàng "Nguyễn Đạt Nhật", biến sự hoài nghi thành hành động.
             </p>
         </header>
 
@@ -40,7 +41,7 @@
         <section class="mb-16">
             <div class="bg-gray-800 p-8 rounded-2xl border border-gray-700">
                 <h3 class="text-2xl font-bold text-teal-400 mb-6 border-l-4 border-teal-400 pl-4">PHẦN 1: GIẢI MÃ TÂM LÝ &
-                    CHIẾN LỢC TIẾP CẬN</h3>
+                    CHIẾN LƯỢC TIẾP CẬN</h3>
                 <p class="text-gray-300 mb-6">
                     Trước khi xây dựng lời chào hàng, chúng ta phải thấu hiểu kẻ thù lớn nhất: <strong
                         class="text-red-400">Sự Hoài Nghi và Nỗi Sợ Hãi</strong> bắt nguồn từ những trải nghiệm "tiền mất
@@ -79,12 +80,12 @@
         <!-- PHẦN 2: PHÂN TÍCH OFFER -->
         <section class="mb-16">
             <div class="bg-gray-800 p-8 rounded-2xl border border-gray-700">
-                <h3 class="text-2xl font-bold text-teal-400 mb-8 border-l-4 border-teal-400 pl-4">PHẦN 2: PHÂN TÍCH CHI TIẾT CÁC THÀNH PHẦN</h3>
+                <h3 class="text-2xl font-bold text-teal-400 mb-8 border-l-4 border-teal-400 pl-4">PHẦN 2: CẤU TRÚC LỜI CHÀO HÀNG "GRAND SLAM"</h3>
                 
                 <!-- SẢN PHẨM CỐT LÕI -->
                 <div class="mb-10 p-6 bg-gray-900 rounded-lg border border-teal-500 shadow-lg">
                     <h4 class="text-xl font-bold text-white mb-3">I. SẢN PHẨM CỐT LÕI</h4>
-                    <p class="text-teal-400 font-semibold text-lg mb-3">Nền tảng eClick Website & Marketing All-in-One</p>
+                    <p class="text-teal-400 font-semibold text-lg mb-3">Nền tảng eClick Website Tất-Cả-Trong-Một</p>
                     <p class="mb-3"><strong class="text-gray-300">Giá trị:</strong> 1.079.000đ/tháng</p>
                     <div class="mb-4">
                         <p class="text-red-400 font-semibold mb-2">Vấn Đề Cốt Lõi Giải Quyết:</p>
@@ -102,26 +103,26 @@
                 </div>
 
                 <!-- BỘ QUÀ TẶNG -->
-                <h4 class="text-xl font-bold text-white mb-4">II. BỘ QUÀ TẶNG GIẢI QUYẾT VẤN ĐỀ (BONUS STACK)</h4>
+                <h4 class="text-xl font-bold text-white mb-4">II. BỘ QUÀ TẶNG GIẢI QUYẾT TẬN GỐC VẤN ĐỀ</h4>
                 <div class="space-y-6">
                     <!-- Quà tặng 1 -->
                     <div class="p-6 bg-gray-900 rounded-lg border border-gray-700 transition-all hover:border-teal-400 hover:shadow-2xl">
                         <p class="font-bold text-lg text-teal-400 mb-2">🎁 QUÀ TẶNG #1: HỆ THỐNG ĐÀO TẠO</p>
-                        <p class="font-semibold text-white text-lg">Hệ Thống "Tự Tay Xây Dựng Website Ra Đơn"</p>
+                        <p class="font-semibold text-white text-lg">Khóa Học "Tự Tay Xây Dựng Website Ra Đơn"</p>
                         <p class="text-sm text-gray-400 mb-3">Giá trị: 5.999.000đ (Sở hữu trọn đời)</p>
                         <p class="text-gray-300 mb-3"><strong class="text-red-400">Giải quyết:</strong> Nỗi sợ công nghệ, cảm giác "mình không làm được", muốn tự mình làm chủ công cụ.</p>
                         <blockquote class="border-l-4 border-gray-600 pl-4 text-gray-400 text-sm italic">
-                           Đây là một khóa học video cầm tay chỉ việc, được thiết kế cho người không chuyên. *(Các khoá học chuyên sâu tương tự trên thị trường thường có giá không dưới 6.000.000đ, chưa kể bạn phải tự mày mò tích hợp vào nền tảng của mình).* Chúng tôi tập trung vào kết quả: giúp bạn tự tay ra mắt một website bán hàng hoàn chỉnh chỉ trong vài ngày. Mục tiêu là biến bạn từ một người "mù công nghệ" thành một người tự chủ.
+                           Đây là một khóa học video cầm tay chỉ việc, được thiết kế cho người không chuyên. Chúng tôi tập trung vào kết quả: giúp bạn tự tay ra mắt một website bán hàng hoàn chỉnh chỉ trong vài ngày.
                         </blockquote>
                     </div>
-                    <!-- Quà tặng 2 -->
+                     <!-- Quà tặng 2 -->
                      <div class="p-6 bg-gray-900 rounded-lg border border-gray-700 transition-all hover:border-teal-400 hover:shadow-2xl">
                         <p class="font-bold text-lg text-teal-400 mb-2">🎁 QUÀ TẶNG #2: BỘ KHỞI ĐỘNG NHANH</p>
                         <p class="font-semibold text-white text-lg">Bộ Mẫu Template Bán Hàng "Mì Ăn Liền"</p>
                         <p class="text-sm text-gray-400 mb-3">Giá trị: 3.999.000đ (Sở hữu trọn đời)</p>
                         <p class="text-gray-300 mb-3"><strong class="text-red-400">Giải quyết:</strong> Không có kỹ năng thiết kế, lo lắng website làm ra sẽ không chuyên nghiệp, mất thời gian.</p>
                         <blockquote class="border-l-4 border-gray-600 pl-4 text-gray-400 text-sm italic">
-                           Sản phẩm này là một "lối tắt" để bạn có một website chuyên nghiệp ngay lập tức. *Chỉ riêng việc mua một bộ theme cao cấp trên các chợ giao diện quốc tế đã tốn của bạn từ 2-4 triệu đồng, và đó là chưa tính chi phí thuê người tuỳ chỉnh.* Chúng tôi đã xây dựng sẵn một thư viện các mẫu website và phễu bán hàng cho nhiều ngành nghề, được thiết kế dựa trên các nguyên tắc về tối ưu hóa chuyển đổi.
+                           Sản phẩm này là một "lối tắt" để bạn có một website chuyên nghiệp ngay lập tức. Chúng tôi đã xây dựng sẵn một thư viện các mẫu website và phễu bán hàng cho nhiều ngành nghề, được thiết kế dựa trên các nguyên tắc về tối ưu hóa chuyển đổi.
                         </blockquote>
                     </div>
                     <!-- Quà tặng 3 -->
@@ -129,9 +130,9 @@
                         <p class="font-bold text-lg text-teal-400 mb-2">🎁 QUÀ TẶNG #3: BỘ CÔNG CỤ SÁNG TẠO</p>
                         <p class="font-semibold text-white text-lg">Bộ 3 Trợ Lý AI Sáng Tạo Nội Dung</p>
                         <p class="text-sm text-gray-400 mb-3">Giá trị: 2.499.000đ/tháng</p>
-                        <p class="text-gray-300 mb-3"><strong class="text-red-400">Giải quyết:</strong> Nỗi sợ "trang giấy trắng", không biết viết gì để bán hàng, tốn thời gian cho việc viết lách.</p>
+                        <p class="text-gray-300 mb-3"><strong class="text-red-400">Giải quyết:</strong> Nỗi sợ "trang giấy trắng", không biết viết gì để bán hàng.</p>
                         <blockquote class="border-l-4 border-gray-600 pl-4 text-gray-400 text-sm italic">
-                           Đây là đội ngũ content marketing làm việc 24/7 cho bạn. *Để sở hữu các công cụ AI viết lách chuyên dụng như Jasper hay Copy.ai, bạn sẽ phải trả từ 1.000.000đ đến 2.500.000đ mỗi tháng.* Ở đây, nó được tích hợp sâu vào nền tảng, giúp bạn viết mọi thứ: từ tiêu đề, mô tả sản phẩm, email, cho đến các bài blog chuẩn SEO, giúp bạn tiết kiệm hàng giờ đồng hồ mỗi ngày.
+                           Đây là đội ngũ content marketing làm việc 24/7 cho bạn, giúp bạn viết mọi thứ: từ tiêu đề trang chủ, mô tả sản phẩm, email chăm sóc khách hàng, cho đến các bài blog chuẩn SEO.
                         </blockquote>
                     </div>
                     <!-- Quà tặng 4 -->
@@ -141,7 +142,7 @@
                         <p class="text-sm text-gray-400 mb-3">Giá trị: 799.000đ/tháng</p>
                         <p class="text-gray-300 mb-3"><strong class="text-red-400">Giải quyết:</strong> Không có đội ngũ marketing, việc quản lý các kênh mạng xã hội quá tốn thời gian.</p>
                          <blockquote class="border-l-4 border-gray-600 pl-4 text-gray-400 text-sm italic">
-                           Dễ dàng lên lịch và đăng bài hàng loạt trên Facebook, Instagram, TikTok... tất cả từ một giao diện duy nhất. *(Các nền tảng quản lý mạng xã hội chuyên nghiệp như Buffer hay Hootsuite thường có chi phí từ 500.000đ đến 1.000.000đ/tháng).* Công cụ của chúng tôi giúp bạn tự động hóa nội dung và tối ưu hóa thời gian đăng bài để bạn tiếp cận nhiều khách hàng hơn ngay cả trong lúc đang ngủ.
+                           Dễ dàng lên lịch và đăng bài hàng loạt trên Facebook, Instagram, TikTok... tất cả từ một giao diện duy nhất. Tự động hóa nội dung để bạn tiếp cận nhiều khách hàng hơn ngay cả trong lúc đang ngủ.
                         </blockquote>
                     </div>
                      <!-- Quà tặng 5 -->
@@ -149,9 +150,9 @@
                         <p class="font-bold text-lg text-teal-400 mb-2">🎁 QUÀ TẶNG #5: HẠ TẦNG VẬN HÀNH</p>
                         <p class="font-semibold text-white text-lg">Media Storage - Kho Lưu Trữ Tốc Độ Cao 1000GB</p>
                         <p class="text-sm text-gray-400 mb-3">Giá trị: 322.000đ/tháng</p>
-                        <p class="text-gray-300 mb-3"><strong class="text-red-400">Giải quyết:</strong> Website tải chậm vì chứa quá nhiều hình ảnh, video chất lượng cao, ảnh hưởng đến trải nghiệm người dùng và SEO.</p>
+                        <p class="text-gray-300 mb-3"><strong class="text-red-400">Giải quyết:</strong> Website tải chậm vì chứa quá nhiều hình ảnh, video chất lượng cao.</p>
                          <blockquote class="border-l-4 border-gray-600 pl-4 text-gray-400 text-sm italic">
-                           Đây là giải pháp "tăng lực" cho website của bạn. *Chỉ riêng chi phí thuê một dịch vụ lưu trữ và phân phối video như Vimeo hay Wistia đã tốn của bạn ít nhất 250.000đ/tháng.* Thay vì lưu trữ hình ảnh và video chung với hosting, bạn sẽ có một kho lưu trữ riêng biệt 1000GB trên hạ tầng của Amazon, đảm bảo website của bạn luôn đạt tốc độ tải trang nhanh nhất.
+                           Bạn sẽ có một kho lưu trữ riêng biệt 1000GB trên hạ tầng của Amazon, đảm bảo website của bạn luôn đạt tốc độ tải trang nhanh nhất.
                         </blockquote>
                     </div>
                      <!-- Quà tặng 6 -->
@@ -161,7 +162,7 @@
                         <p class="text-sm text-gray-400 mb-3">Giá trị: 1.000.000đ/tháng</p>
                         <p class="text-gray-300 mb-3"><strong class="text-red-400">Giải quyết:</strong> Nỗi sợ lớn nhất: "Khi gặp vấn đề kỹ thuật, ai sẽ giúp tôi?", cảm giác bị "bỏ con giữa chợ".</p>
                         <blockquote class="border-l-4 border-gray-600 pl-4 text-gray-400 text-sm italic">
-                           Đây là "lưới an toàn" của chúng tôi dành cho bạn. *Một giờ tư vấn kỹ thuật từ một freelancer có kinh nghiệm đã có giá từ 500.000đ - 1.000.000đ.* Ở đây, bạn có được sự hỗ trợ liên tục qua nhóm hỗ trợ kín và 3 buổi Zoom trực tiếp mỗi tháng, nơi bạn có thể chia sẻ màn hình và được các chuyên gia của chúng tôi gỡ rối mọi vấn đề ngay lập tức.
+                           Đây là "lưới an toàn" của chúng tôi. Bạn sẽ được tham gia vào nhóm hỗ trợ kín và 3 buổi Zoom trực tiếp mỗi tháng, nơi bạn có thể chia sẻ màn hình và được các chuyên gia của chúng tôi gỡ rối mọi vấn đề ngay lập tức.
                         </blockquote>
                     </div>
                 </div>
@@ -218,28 +219,19 @@
                     <p class="text-gray-300 mb-6">
                         Tôi biết bạn đã từng bị tổn thương. Tôi biết bạn đã nghe quá nhiều lời hứa. Vì vậy, tôi sẽ không chỉ hứa. <strong class="text-white">Tôi sẽ đặt uy tín của mình ra để đảm bảo cho sự an toàn của bạn.</strong>
                     </p>
-                     <p class="text-gray-300 mb-6">
-                        Đây là lời cam kết cá nhân từ tôi:
-                    </p>
                     <p class="text-gray-300 mb-6">
-                        Hãy đăng ký và trải nghiệm trọn vẹn toàn bộ Hệ thống eClick trong 30 ngày chỉ với $1. Hãy tham gia các buổi Zoom hỗ trợ. Hãy sử dụng các công cụ. Hãy cảm nhận sự khác biệt.
-                    </p>
-                    <p class="text-gray-300 mb-6">
-                       Nếu kết thúc 30 ngày, bạn không cảm thấy đây là nền tảng <strong class="text-white">AN TÂM NHẤT</strong> và giúp bạn <strong class="text-white">TỰ CHỦ NHẤT</strong> mà bạn từng sử dụng... ...Hoặc thậm chí nếu bạn đơn giản là không thích nó vì bất kỳ lý do gì, dù là nhỏ nhất...
-                    </p>
-                     <p class="text-gray-300 mb-6">
-                       Chỉ cần một cú nhấp chuột vào nút "Hủy" trong khu vực tài khoản của bạn. 1 đô la sẽ được hoàn lại ngay lập tức. <strong class="text-white">Không câu hỏi. Không phiền phức. Và chắc chắn không có rủi ro.</strong>
+                       Nếu kết thúc 30 ngày, bạn không cảm thấy đây là nền tảng <strong class="text-white">AN TÂM NHẤT</strong> và giúp bạn <strong class="text-white">TỰ CHỦ NHẤT</strong> mà bạn từng sử dụng... chỉ cần một cú nhấp chuột để hủy. 1 đô la sẽ được hoàn lại ngay lập tức. <strong class="text-white">Không câu hỏi. Không phiền phức. Và chắc chắn không có rủi ro.</strong>
                     </p>
                     <div class="bg-yellow-900/50 p-4 rounded-lg">
-                        <p class="font-semibold text-yellow-300">Và hơn thế nữa... Bạn vẫn được giữ lại toàn bộ Hệ Thống "Tự Tay Xây Dựng Website Ra Đơn" (trị giá 5.999.000đ) như một lời cảm ơn vì đã cho chúng tôi cơ hội.</p>
-                        <p class="text-white mt-3 font-bold text-lg">Toàn bộ rủi ro, hãy để tôi gánh vác. Bạn chỉ cần cho mình cơ hội được trải nghiệm sự bình yên.</p>
+                        <p class="font-semibold text-yellow-300">Và hơn thế nữa... Bạn vẫn được giữ lại toàn bộ Khóa Học "Tự Tay Thiết Kế Website Ra Đơn" (trị giá 5.999.000đ) như một lời cảm ơn vì đã cho chúng tôi cơ hội.</p>
+                        <p class="text-white mt-3 font-bold text-lg">Toàn bộ rủi ro, hãy để tôi gánh vác.</p>
                     </div>
                 </div>
 
                 <!-- KHAN HIẾM -->
                 <div class="mt-12 text-center bg-red-900/50 p-6 rounded-lg border border-red-500">
                     <h4 class="text-xl font-bold text-red-300 mb-2">TẠO SỰ KHAN HIẾM & KHẨN CẤP</h4>
-                    <p class="text-gray-200">Ưu đãi dùng thử $1 cùng toàn bộ 6 quà tặng trị giá hơn 15 triệu đồng này <strong class="text-white">chỉ dành cho 100 người đăng ký đầu tiên</strong> trong đợt ra mắt này.</p>
+                    <p class="text-gray-200">Ưu đãi dùng thử $1 cùng toàn bộ 6 quà tặng trị giá hơn 15 triệu đồng này <strong class="text-white">chỉ dành cho 50 người đăng ký đầu tiên</strong> trong đợt ra mắt này.</p>
                     <p class="text-gray-400 mt-2 text-sm"><strong class="text-white">Lý do:</strong> Để đảm bảo đội ngũ của chúng tôi có thể hỗ trợ một cách tốt nhất và cá nhân nhất cho từng thành viên mới, giúp bạn có được thành công ngay từ những bước đầu tiên.</p>
                      <p class="text-gray-500 mt-4 text-xs italic">*Lưu ý: Cần có thẻ tín dụng (Credit Card/Visa/Mastercard) để đăng ký dùng thử $1 nhằm xác thực tài khoản và tự động gia hạn sau 30 ngày.*</p>
                 </div>
@@ -251,3 +243,4 @@
 </body>
 
 </html>
+
