@@ -1,0 +1,46 @@
+TITLE: Tài liệu Chuẩn đoán Thị trường - eClick Website - Chương 4 - Thông Điệp Cốt Lõi (Core Message Canvas)
+BOOK: Tài liệu Chuẩn đoán Thị trường - eClick Website
+AUTHOR: [Tên Tác giả]
+URL: [Link sách/Nguồn]
+TYPE: BookNoteChapter
+LAST_UPDATED: 2025-11-16
+TAGS: [Tên Tác giả], [eClick Website], [Thông điệp cốt lõi], [JTBD], [Core Message Canvas], [Phép ẩn dụ], [Cơ chế], booknote, [Tài liệu Chuẩn đoán Thị trường - eClick Website]
+---
+
+## 🧠 Core Mindsets
+* **Tập trung vào nhóm "Hoài nghi":** Thông điệp cốt lõi phải nhắm vào nhóm "đã 'tiền mất tật mang', hoài nghi sâu sắc", không phải người mới. Toàn bộ thông điệp là để "chữa lành" sự hoài nghi và trao lại "sự an tâm & quyền kiểm soát".
+* **Bán "Sự An Tâm" và "Sự Tập Trung":** "Công việc" (JTBD) thực sự mà khách hàng "thuê" sản phẩm là để "an tâm tập trung 100% vào việc kinh doanh" và "thoát khỏi cảm giác bất lực, lo lắng về kỹ thuật".
+* **Bán "Tốc độ thực thi":** Khách hàng "thuê" sản phẩm để "tự làm điều đó ngay lập tức... mà không bị chậm trễ." Họ mua sự xóa bỏ ma sát giữa ý tưởng và hành động.
+* **Bán "Sự Thay đổi Cuộc sống":** Lời chào hàng phải vượt lên trên "Chức năng" (Functional). Nó phải chạm đến tầng "Cảm xúc" (Giảm lo lắng) và "Thay đổi cuộc sống" (Mang lại hy vọng) để thực sự có giá trị.
+
+## 💡 Counter-intuitive Views
+* **Cơ chế + Ẩn dụ = Niềm tin:** Một Cơ chế (Mechanism) tốt (ví dụ: "Kéo-Thả") là chưa đủ để thuyết phục người "mù công nghệ". Bạn *bắt buộc* phải có một Phép Ẩn dụ (Metaphor) quen thuộc (ví dụ: "Dễ như Canva") đi kèm.
+    * **Cơ chế** làm cho lời hứa *đáng tin về mặt kỹ thuật* (Believable).
+    * **Phép Ẩn dụ** làm cho lời hứa *đáng tin về mặt năng lực cá nhân* (Relatable - "Tôi có thể làm được").
+
+## 🎣 Hooks & Angles
+* **Tuyên Bố Định Vị (Positioning Statement):** "Nền tảng eClick Website giúp chủ kinh doanh lấy lại toàn quyền kiểm soát website bán hàng của mình, chấm dứt sự phụ thuộc vào các công ty thiết kế, bằng công nghệ kéo-thả trực quan mà bất kỳ ai cũng có thể sử dụng dễ như dùng Canva."
+* **Tuyên bố JTBD (Nỗi đau):** "Khi tôi đã từng 'tiền mất tật mang' và cảm thấy bất lực với website cũ, tôi muốn có một công cụ mà tôi có thể tin tưởng và toàn quyền kiểm soát, để tôi có thể an tâm tập trung 100% vào việc kinh doanh của mình."
+
+## 🛠️ Frameworks & Strategies
+* **Mô hình Thông Điệp Cốt Lõi (Core Message Canvas):** Quy trình 5 bước để xây dựng thông điệp:
+    1.  **Xác lập Phạm vi** (Avatar & Offer).
+    2.  **Kế thừa Lưới "Trước & Sau"** (5 yếu tố: Have, Feel, Average Day, Status, Good vs. Evil).
+    3.  **Xây dựng Tuyên bố Giá trị** (Positioning Statement).
+    4.  **Xác định "Công việc cần hoàn thành"** (Jobs To Be Done - JTBD).
+    5.  **Chế tác Phép Ẩn dụ & Cơ chế** (Metaphor & Mechanism).
+* **Phân tích "Jobs To Be Done" (JTBD):** Phân tích "công việc" khách hàng thuê sản phẩm theo 4 khía cạnh chính:
+    1.  JTBD #1: Thoát Khỏi Nỗi Đau & Tìm Kiếm Sự An Tâm.
+    2.  JTBD #2: Giành Lại Quyền Kiểm Soát & Sự Tự Chủ.
+    3.  JTBD #3: Tìm Kiếm Sự An Toàn & Tin Tưởng Khi Đầu Tư.
+    4.  JTBD #4: Xây Dựng Nền Tảng Kinh Doanh Bền Vững.
+* **Chiến lược Tháp Giá Trị (Value Stack):** Đảm bảo thông điệp kích hoạt cả 3 tầng giá trị:
+    1.  **Chức năng** (Đơn giản hóa, Tiết kiệm thời gian).
+    2.  **Cảm xúc** (Giảm lo lắng, Cảm giác hoàn thành).
+    3.  **Thay đổi cuộc sống** (Mang lại hy vọng, Động lực).
+
+## 💬 Golden Quotes
+* > "Nền tảng eClick Website giúp chủ kinh doanh lấy lại toàn quyền kiểm soát website bán hàng của mình, chấm dứt sự phụ thuộc vào các công ty thiết kế, bằng công nghệ kéo-thả trực quan mà bất kỳ ai cũng có thể sử dụng dễ như dùng Canva."
+* > "Khi tôi đã từng 'tiền mất tật mang' và cảm thấy bất lực với website cũ, tôi muốn có một công cụ mà tôi có thể tin tưởng và toàn quyền kiểm soát, để tôi có thể an tâm tập trung 100% vào việc kinh doanh của mình."
+* > "Cơ chế [Kéo-Thả] là 'vũ khí' cốt lõi làm cho lời hứa về sự tự chủ trở nên đáng tin và khả thi về mặt kỹ thuật."
+* > "Phép ẩn dụ [Dễ như Canva] là cầu nối tâm lý... giúp phá tan rào cản về công nghệ trong tâm trí khách hàng."
